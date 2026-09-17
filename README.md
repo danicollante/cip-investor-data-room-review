@@ -1,5 +1,7 @@
 # CIP investor data room — full leadership preview
 
+Public preview: https://danicollante.github.io/cip-investor-data-room-review/
+
 This is the complete static design preview. Entooma Sidai is populated with the current working data, model figures, citations and 151-entry document index. The other 16 projects retain their real pipeline names but are unavailable until populated.
 
 Accounts, permissions, NDA, invitations, requests and activity are simulated in the browser. No original documents are delivered. This static site's data files are publicly readable if deployed.
