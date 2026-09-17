@@ -29,7 +29,7 @@ window.CIPMap = (() => {
   document.getElementById('map-reset').addEventListener('click',()=>map?.fitBounds(bounds,{padding:[24,24],maxZoom:10}));
   for(const input of document.querySelectorAll('[data-map-layer]'))input.addEventListener('change',()=>{const layer=layers[input.dataset.mapLayer];if(!map||!layer)return;if(input.checked)layer.addTo(map);else map.removeLayer(layer);});
   requestAnimationFrame(()=>map?.invalidateSize());
-  const results=await Promise.allSettled(definitions.slice(1).map(async item=>{const response=await fetch(`../../data/geo/${item.file}`);if(!response.ok)throw Error(item.file);return response.json();}));
+  const results=await Promise.allSettled(definitions.slice(1).map(async item=>{const response=await fetch(`data/geo/${item.file}`);if(!response.ok)throw Error(item.file);return response.json();}));
   if(token!==generation||!map)return;
   let failures=0;
   results.forEach((result,index)=>{const item=definitions[index+1];const input=document.querySelector(`[data-map-layer="${item.id}"]`);if(result.status!=='fulfilled'){failures++;input.closest('.map-layer').classList.add('map-layer-unavailable');return;}layers[item.id]=makeLayer(result.value,item);input.disabled=false;if(input.checked)layers[item.id].addTo(map);});
