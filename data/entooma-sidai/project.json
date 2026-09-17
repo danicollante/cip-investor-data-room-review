@@ -1,0 +1,772 @@
+{
+  "schema_version": "1.1",
+  "project_slug": "entooma-sidai",
+  "dataroom_base_url": "",
+  "sections": {
+    "identity": {
+      "toc_ref": "4.a",
+      "availability": {
+        "state": "provided"
+      },
+      "registry_id": "4994",
+      "registry_url": "https://registry.verra.org/app/projectDetail/VCS/4994",
+      "registry_status": "under_development",
+      "standards": [
+        {
+          "name": "Verified Carbon Standard (VCS)",
+          "version": "4.7"
+        },
+        {
+          "name": "Climate, Community & Biodiversity Standards (CCB)",
+          "version": "3.1"
+        }
+      ],
+      "methodology": {
+        "id": "VM0032",
+        "title": "Methodology for the Adoption of Sustainable Grasslands through Adjustment of Fire and Grazing, v1.0"
+      },
+      "country": "Kenya",
+      "region": "Narok County",
+      "area": {
+        "value": 500000,
+        "unit": "ha"
+      },
+      "crediting_period": {
+        "start": {
+          "state": "not_stated",
+          "note": "The project description's own cover page carries a placeholder, not a date: 'xx-Month-2026'. The financial model (2026.08.13, newer) assumes a 2027 start year on its Inputs sheet (C13), but that is a modelling assumption rather than a fixed crediting period, so no start date is stated here."
+        },
+        "end": {
+          "state": "not_stated",
+          "note": "Placeholder on the project description's cover page ('xx-Month-xxxx'). The same page states a 40-year project lifetime, but deriving an end date from a start date that is itself unfixed would be a computed figure."
+        }
+      },
+      "provenance": {
+        "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 (clean) DRAFT, v1.0 — cover page, methodology at p.9, registry status in the milestone table, p.46; area per CIP's confirmation of the final project area, cross-checked against Entooma Sidai - Financial Model 2026.08.13.xlsx, sheet '1. Inputs', cell C10 (see caveats)",
+        "short": "Project description 3.11.26",
+        "toc_ref": "4.a",
+        "updated": "2026-08-13",
+        "provider": "Climate Investment Partners LLC",
+        "status": "verified",
+        "caveats": "Area is 500,000 ha, per CIP's explicit confirmation that this is the final project area. This overrides the project description's stated ~650,000 ha (§2.1.16, pp.34-35 — itself derived by excluding forest, conservancies, mining areas, urban centres and agricultural land from an initial limit of ~883,500 ha). The override is on CIP's confirmation, not on document date alone — the financial model happens to be the newer document (2026-08-13 vs 2026-03-11) and to already use 500,000 ha (Inputs, C10), but that agreement is what makes it corroborating evidence, not the reason for the override. This correction has two consequences not yet reconciled elsewhere in this file, both in financials.scenarios[0]: the ER Calculations workbook's 689,731 tCO2e/yr figure still runs on 650,647 ha, and the GIS-measured project boundary (data/geo/project_area.geojson, delegated via the geo section below) measures 652,022.0 ha — neither has been updated to reflect this confirmation. See docs/GAPS.md, section D1. Registry status is 'under development', the status the project was submitted to the Verra registry under on 21 February 2024; it has not yet been submitted for validation. Methodology version is contested across documents: this PD applies VM0032 v1.0, while the newer project FAQ (2026-07-20) states the project will use v2.0, which was itself 'under development' at that date. An older PD (21 Feb 2024) exists and is superseded per the newest-document rule."
+      }
+    },
+    "impact": {
+      "toc_ref": "4.a",
+      "availability": {
+        "state": "provided"
+      },
+      "delegated_to": "data/indicators.json",
+      "provenance": {
+        "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 (clean) DRAFT — Standardized Benefit Metrics, Table 1.2, pp.5–8; biodiversity species and IUCN statuses at §5.1, pp.155–159",
+        "short": "Project description 3.11.26, Table 1.2 pp.5-8",
+        "toc_ref": "4.a",
+        "updated": "2026-03-11",
+        "provider": "Climate Investment Partners LLC",
+        "status": "verified",
+        "caveats": "Indicator values and their per-indicator citations live in data/indicators.json. Five indicators were re-cited from the superseded 21 Feb 2024 PD to this 3.11.26 PD in this phase; one (land-cover-baseline) still cites the 12.12.23 Feasibility Study, now with an expanded caveat naming three candidate area figures, none of which is CIP's confirmed project area — see GAPS.md. area-managed's value was corrected from 650,000 to 500,000 ha in the same pass as identity.area, on the same confirmation — see identity's own caveats for the full reasoning and its unreconciled downstream effects."
+      }
+    },
+    "geo": {
+      "toc_ref": "6.a",
+      "availability": {
+        "state": "provided"
+      },
+      "delegated_to": "data/geo/layers.json",
+      "provenance": {
+        "source": "entooma_sidai_target_area_03.13.2026 shapefile set (project boundary) and the Narok County Removal Areas shapefile set (context layers), converted by pipeline/build_geo.sh",
+        "short": "Target area shapefile 03.13.2026, via build_geo.sh",
+        "toc_ref": "6.a",
+        "updated": "2026-03-13",
+        "provider": "Entooma Sidai Limited / Climate Investment Partners LLC",
+        "status": "verified",
+        "caveats": "Pipeline re-run in this phase against the 03.13.2026 target area and the Narok context shapefiles; output was byte-identical to the committed GeoJSON, so the committed layers are confirmed to derive from the newest boundary on file. That boundary measures 652,022.0 ha — close to the project description's stated ~650,000 ha, but neither figure matches CIP's confirmed final project area of 500,000 ha (identity.area). No boundary file matching 500,000 ha exists anywhere in the data room as of this phase: the delivered GIS boundary is roughly 152,000 ha (about 23%) larger than the confirmed area. Not resolved here — the pipeline was re-run to confirm reproducibility against the sources currently on file, not to reconcile this gap, which needs a corrected boundary from whoever produced the GIS set. Decision for this demo (2026-09-13): ship with this boundary as-is rather than wait on a corrected shapefile — the geometry and area_ha values here are not touched. Phase 5 is required to add a visible, distinct “known discrepancy” flag directly on the map (not just this provenance text) stating both numbers — the ~652,000 ha shown vs. the 500,000 ha confirmed area — and that a corrected boundary is pending. That display flag is a demo-stage compromise only; it does not resolve this gap. See docs/GAPS.md, section A6. All five layers remain publishable: true — the clearance question on Forest_removals, North_discount and isolated_islands is a separate open decision recorded in GAPS.md."
+      }
+    },
+    "financials": {
+      "toc_ref": "2.a",
+      "availability": {
+        "state": "provided"
+      },
+      "currency": "USD",
+      "scenarios": [
+        {
+          "id": "model-2026-08",
+          "label": "Financial model, August 2026 run",
+          "assumptions": [
+            {
+              "name": "Modelled project size",
+              "figure": {
+                "state": "provided",
+                "value": 500000,
+                "unit": "ha"
+              }
+            },
+            {
+              "name": "Initial credit price",
+              "figure": {
+                "state": "provided",
+                "value": 25,
+                "unit": "USD/VCU"
+              }
+            },
+            {
+              "name": "Carbon credit price inflation",
+              "figure": {
+                "state": "provided",
+                "value": 2.5,
+                "unit": "%/yr"
+              }
+            },
+            {
+              "name": "NPV discount rate",
+              "figure": {
+                "state": "provided",
+                "value": 9,
+                "unit": "%"
+              }
+            },
+            {
+              "name": "Net carbon accumulation",
+              "figure": {
+                "state": "provided",
+                "value": 1.5143851804720552,
+                "unit": "tCO2/ha/yr"
+              }
+            },
+            {
+              "name": "Leakage deduction",
+              "figure": {
+                "state": "provided",
+                "value": 10,
+                "unit": "%"
+              }
+            },
+            {
+              "name": "VCS AFOLU buffer credit pool deduction",
+              "figure": {
+                "state": "provided",
+                "value": 20,
+                "unit": "%"
+              }
+            },
+            {
+              "name": "Modelled start year",
+              "figure": {
+                "state": "provided",
+                "value": 2027,
+                "unit": "calendar year"
+              }
+            },
+            {
+              "name": "Modelled term",
+              "figure": {
+                "state": "provided",
+                "value": 40,
+                "unit": "years"
+              }
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Net emission reductions, per year",
+              "figure": {
+                "state": "provided",
+                "value": 689731,
+                "unit": "tCO2e/yr",
+                "source_override": {
+                  "source": "Entooma Sidai Feasibility ER Calculations 2026.03.16.xlsx, sheet 'Net ER Calcs', cell K6 (gross 985,330 less 98,533 leakage less 197,066 AFOLU buffer); project accounting area 650,647 ha at cell C6",
+                  "short": "ER calculations 2026.03.16, Net ER Calcs K6",
+                  "toc_ref": "2.a",
+                  "updated": "2026-03-16",
+                  "provider": "Climate Investment Partners LLC / CarbonSolve LLC",
+                  "status": "verified",
+                  "caveats": "Read from the ER workbook rather than the financial model, which is why this figure carries its own source. This calculation runs on 650,647 ha (cell C6) — the area stated in the project description before CIP's later confirmation of 500,000 ha as the final project area (see identity.area and docs/GAPS.md, section D1). This figure has NOT been recalculated against the confirmed area: it is reported exactly as the workbook states it (Rule 3 — no interpolation, no recomputation), not adjusted to match 500,000 ha. Treat 689,731 tCO2e/yr as provisional until CIP either re-runs the ER Calculations workbook against 500,000 ha or confirms the figure still holds despite the smaller confirmed area. The 3.11.26 PD (Table 1.2, p.5) states this same 689,731 figure and a 40-year total of 27,589,240 VCUs — also on the pre-confirmation area."
+                }
+              }
+            },
+            {
+              "name": "Credits delivered, total over term",
+              "figure": {
+                "state": "provided",
+                "value": 20406340.31,
+                "unit": "VCU"
+              }
+            },
+            {
+              "name": "Revenues, total over term",
+              "figure": {
+                "state": "provided",
+                "value": 873270332.16,
+                "unit": "USD"
+              }
+            },
+            {
+              "name": "CAPEX, total over term",
+              "figure": {
+                "state": "provided",
+                "value": 15295925.14,
+                "unit": "USD"
+              }
+            },
+            {
+              "name": "OPEX, total over term",
+              "figure": {
+                "state": "provided",
+                "value": 161144665.73,
+                "unit": "USD"
+              }
+            },
+            {
+              "name": "Total expenses over term",
+              "figure": {
+                "state": "provided",
+                "value": 176440590.87,
+                "unit": "USD"
+              }
+            },
+            {
+              "name": "NPV",
+              "figure": {
+                "state": "provided",
+                "value": 42951327.8,
+                "unit": "USD"
+              }
+            },
+            {
+              "name": "IRR, 40-year",
+              "figure": {
+                "state": "provided",
+                "value": 140.02,
+                "unit": "%",
+                "note": "Stated at cell C34. The model's 15-year IRR (C35) carries the identical value, which looks like a formula artefact rather than two independent results; both are reported as the model states them, neither recomputed."
+              }
+            },
+            {
+              "name": "Cost per credit",
+              "figure": {
+                "state": "provided",
+                "value": 2.5155,
+                "unit": "USD/VCU"
+              }
+            },
+            {
+              "name": "Cost per hectare",
+              "figure": {
+                "state": "provided",
+                "value": 19.2985,
+                "unit": "USD/ha"
+              }
+            },
+            {
+              "name": "Free cash flow, total over term",
+              "figure": {
+                "state": "not_stated",
+                "note": "The model's free-cashflow row has annual values in the millions but its Total column (cell C18) reads 1.5199, which cannot be a dollar total of that row. Treated as a broken cell rather than a figure: reporting 1.5199 would be wrong and deriving the real total by summing the row would be a computed figure Rule 3 forbids. Cumulative cashflow at C19 (696,829,741.29) is stated, but is a different measure and is not substituted here."
+              }
+            }
+          ],
+          "provenance": {
+            "source": "Entooma Sidai - Financial Model 2026.08.13.xlsx — assumptions from sheet '1. Inputs' (cells C10, C13, C14, C18–C20, F7, F8, F10); outputs from sheet '7. CIP Summary Sheet' (cells C14–C17, C23, C33, C34, C37, C38)",
+            "short": "Financial model 2026.08.13, CIP Summary Sheet",
+            "toc_ref": "2.a",
+            "updated": "2026-08-13",
+            "provider": "Climate Investment Partners LLC",
+            "status": "pending-clearance",
+            "caveats": "Marked pending-clearance, not verified: these figures come from an internal financial model in the data room and nobody has confirmed they are cleared for circulation in this brief. Three things a reader must not be left to infer. (1) The model's 500,000 ha assumption (Inputs, C10) is CIP's confirmed final project area (see identity.area) — this scenario's assumptions and outputs are correctly built on the current figure, unlike the project description and the ER Calculations workbook, which both still run on the since-superseded ~650,000 ha. The one exception is the ER-per-year output below, which is deliberately sourced from that same superseded-area workbook via source_override and has not been recalculated — see its own caveat. (2) The $25/VCU opening price is roughly 2.7x the $9.27 average 2024 forest-carbon price in CIP's own market analysis, which is the single assumption the returns are most sensitive to. (3) The model's own investment-structure block — a named third-party investor, the invested amount, tranche percentages and the credit waterfall — is deliberately NOT reproduced in this document; see GAPS.md."
+          }
+        }
+      ],
+      "provenance": {
+        "source": "Entooma Sidai - Financial Model 2026.08.13.xlsx and Entooma Sidai Feasibility ER Calculations 2026.03.16.xlsx",
+        "short": "Financial model 2026.08.13 + ER calculations 2026.03.16",
+        "toc_ref": "2.a",
+        "updated": "2026-08-13",
+        "provider": "Climate Investment Partners LLC",
+        "status": "pending-clearance",
+        "caveats": "One scenario, because the model contains one. It has a single set of inputs and a single output case; there is no low/base/high structure in either workbook, and inventing a second case would be a figure no document states."
+      }
+    },
+    "investment_structure": {
+      "toc_ref": "2.a",
+      "availability": {
+        "state": "not_yet_provided",
+        "note": "Held in this state by instruction for this phase. Note for the record that this is no longer accurate as a statement about the data room: the financial model's Inputs sheet does contain an investment structure — a named investor, total investment amount, investment period, origination fee and a full credit waterfall. That material was found in 2-financials, not in an SPV folder, and populating it is a disclosure decision that has not been made. See GAPS.md."
+      },
+      "expected_fields": [
+        "spv",
+        "instrument",
+        "ticket_size",
+        "use_of_funds",
+        "waterfall"
+      ]
+    },
+    "legal_regulatory": {
+      "toc_ref": "7.a",
+      "availability": {
+        "state": "provided"
+      },
+      "items": [
+        {
+          "id": "land-tenure",
+          "label": "Land tenure — landholder sign-up",
+          "status": "partial",
+          "note": "315,000+ hectares are signed up under Letters of Intent against a stated target of 500,000 to 650,000 hectares, so roughly half to two-thirds of the intended area is covered. LOIs are also not the binding instrument: the project FAQ describes Benefit Sharing Agreements and Transfer of Carbon Rights Agreements as still to be drafted. The three LOI examples in the data room are image scans with no text layer and their contents were not read in this pass.",
+          "provenance": {
+            "source": "FAQs for Entooma Sidai Project (7-20-2026), Q7",
+            "short": "Project FAQ 2026-07-20, Q7",
+            "toc_ref": "8.c",
+            "updated": "2026-07-20",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified",
+            "caveats": "The hectare figure is the FAQ's own ('315,000+'), a floor rather than a measured total. Cited to the FAQ rather than to the LOI scans in 7.b, which could not be read."
+          }
+        },
+        {
+          "id": "carbon-rights",
+          "label": "Carbon rights — legal confirmation and transfer instruments",
+          "status": "pending",
+          "note": "Not yet established. The project has received proposals from two Kenya-based law firms to assess how carbon rights work for private land in Narok County, conduct land-title searches against the national registry, and draft the Benefit Sharing Agreement that would transfer carbon rights. No firm has been engaged and no transfer instrument has been executed.",
+          "provenance": {
+            "source": "FAQs for Entooma Sidai Project (7-20-2026), Q7",
+            "short": "Project FAQ 2026-07-20, Q7",
+            "toc_ref": "8.c",
+            "updated": "2026-07-20",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "id": "national-carbon-regulation",
+          "label": "National carbon-market regulation",
+          "status": "partial",
+          "note": "The regulatory framework exists and the project commits to it, but the project's own obligation under it is unquantified: the FAQ states the project will follow all fees in the Climate Change (Carbon Markets) Regulations, 2024, while 'the exact amount is still to be determined', with discussions ongoing with Narok County officials and NEMA. Framework confirmed, quantum pending.",
+          "provenance": {
+            "source": "FAQs for Entooma Sidai Project (7-20-2026), Q10; Legal Notice 84, Climate Change (Carbon Markets) Regulations 2024 (on file, 7.c)",
+            "short": "Project FAQ 2026-07-20, Q10; Legal Notice 84 (2024)",
+            "toc_ref": "7.c",
+            "updated": "2026-07-20",
+            "provider": "Climate Investment Partners LLC / Government of Kenya",
+            "status": "verified",
+            "caveats": "LN 84 (2024) is the operative text per the newest-document rule; earlier 2023 regulation drafts are also in the data room and are not cited."
+          }
+        },
+        {
+          "id": "county-support",
+          "label": "Narok County government support",
+          "status": "partial",
+          "note": "Two letters from two Narok County departments are on file — Agriculture, Livestock and Fisheries, and Environment, Water, Energy, Natural Resources and Climate Change. Both are image-only PDFs with no text layer, so their contents were not read and the strength of what they express is unverified. Recorded as partial rather than confirmed for that reason alone: the documents exist, what they commit to does not.",
+          "provenance": {
+            "source": "Narok County Letter (Dept. Agriculture, Livestock and Fisheries) and Narok County Letter (Dept. Environment, Water, Energy, Natural Resources, and Climate Change) — both on file, 7.d",
+            "short": "Narok County letters (Agriculture; Environment), 7.d",
+            "toc_ref": "7.d",
+            "updated": "2026-03-11",
+            "provider": "Narok County Government",
+            "status": "pending-clearance",
+            "caveats": "The 'updated' date is the project description's date, not the letters' own — neither letter's date could be read from the scan. Needs either OCR or a human read before this item can move to confirmed."
+          }
+        },
+        {
+          "id": "partner-mou",
+          "label": "Partner MOU and SPV basis",
+          "status": "confirmed",
+          "note": "A signed Memorandum of Understanding between Sand River Wildlife Corridor, Akili Holdings Limited and Action Africa Help International sets out each party's roles and is stated to be the basis for registering the special purpose vehicle through which the project contracts. The SPV, Entooma Sidai Limited, was established in December 2023.",
+          "provenance": {
+            "source": "MOU between SRWC, Akili Holdings Limited and AAH-I (final, signed), 7.a; SPV establishment date per the Entooma Sidai CCB-and-VCS Project Description, 3.11.26, cover-page footnote 1 and milestone table, p.46",
+            "short": "MOU SRWC-Akili-AAH-I (signed), 7.a",
+            "toc_ref": "7.a",
+            "updated": "2026-03-11",
+            "provider": "Entooma Sidai Limited",
+            "status": "verified",
+            "caveats": "The MOU PDF carries no visible execution date in its text; the December 2023 SPV date and the 22 January 2024 CIP/Entooma Sidai partnership agreement date both come from the project description's milestone table rather than from the MOU itself."
+          }
+        },
+        {
+          "id": "nema-authorisation",
+          "label": "NEMA authorisation (Kenya's Designated National Authority)",
+          "status": "pending",
+          "note": "Not yet obtained, and not yet applied for. The project description's milestone table expects the ESIA and Project Concept Note to be submitted to NEMA during 2026 and a letter of no objection to follow in the same year, with the project design document submitted and a letter of approval issued in 2027. All four are stated as expected, none as achieved.",
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 (clean) DRAFT — milestone table, pp.46–47",
+            "short": "Project description 3.11.26, milestones pp.46-47",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        }
+      ]
+    },
+    "team": {
+      "toc_ref": "5.d",
+      "availability": {
+        "state": "provided"
+      },
+      "members": [
+        {
+          "name": "James Eaton",
+          "role": "Founder and Chief Executive Officer",
+          "organisation": "Climate Investment Partners LLC",
+          "experience": "VCS technical and forest carbon expert for 20+ years; has led over 16 forest carbon projects from conception through validation, verification and registration, and over 14 years designing conservation projects covering more than 500,000 hectares.",
+          "provenance": {
+            "source": "Local Project Experience of Entooma Sidai Team, pp.1–2",
+            "short": "Team experience summary, pp.1-2",
+            "toc_ref": "5.d",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "name": "Brian McFarland",
+          "role": "Founder and Chief Operating Officer",
+          "organisation": "Climate Investment Partners LLC",
+          "experience": "18+ years in carbon markets and conservation finance; managed four VCS-CCB REDD+ projects in Brazil and financed over 260 carbon projects across 30 countries, representing 22 million offsets.",
+          "provenance": {
+            "source": "Local Project Experience of Entooma Sidai Team, pp.1–3",
+            "short": "Team experience summary, pp.1-3",
+            "toc_ref": "5.d",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "name": "Mark Ritchie",
+          "role": "Director; technical soil modelling and GHG accounting lead for the project",
+          "organisation": "CarbonSolve LLC / Soils for the Future LLC; Adjunct Professor, Utah State University",
+          "experience": "PhD terrestrial ecologist specialising in grazing systems and the link between land management and soil carbon; lead contributor to the development of the VM0032 grasslands methodology the project applies.",
+          "provenance": {
+            "source": "Dr. Mark Ritchie CV (5.d); role on the project and VM0032 authorship per FAQs for Entooma Sidai Project (7-20-2026), Q9",
+            "short": "Mark Ritchie CV (5.d); role per Project FAQ Q9",
+            "toc_ref": "5.d",
+            "updated": "2026-07-20",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "name": "Githaiga Kamau",
+          "role": "Regional Director; Director of the project SPV, Entooma Sidai Limited",
+          "organisation": "Action Africa Help International",
+          "experience": "Executive leadership of AAH-I since December 2020, working with pastoralist, refugee and urban-poor communities in Kenya with an emphasis on youth and women.",
+          "provenance": {
+            "source": "Githaiga Kamau CV (5.d); SPV directorship per the Entooma Sidai CCB-and-VCS Project Description, 3.11.26, cover page",
+            "short": "Githaiga Kamau CV (5.d)",
+            "toc_ref": "5.d",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "name": "Timothy Tear",
+          "role": "International Senior Scientist",
+          "organisation": "Biodiversity Research Institute",
+          "experience": "Conservation biologist with over 35 years directing and managing conservation programmes, working at the intersection of science and practice.",
+          "provenance": {
+            "source": "Timothy Tear CV (5.d)",
+            "short": "Timothy Tear CV (5.d)",
+            "toc_ref": "5.d",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "name": "David Evers",
+          "role": "Executive Director, Chief Scientist and Founder; Co-Owner of CarbonSolve LLC",
+          "organisation": "Biodiversity Research Institute",
+          "experience": "Wildlife ecologist and founder of the Biodiversity Research Institute; co-owner since 2022 of CarbonSolve, the carbon-credit developer providing the project's technical support.",
+          "provenance": {
+            "source": "David Evers CV (5.d)",
+            "short": "David Evers CV (5.d)",
+            "toc_ref": "5.d",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        }
+      ],
+      "provenance": {
+        "source": "Local Project Experience of Entooma Sidai Team, and the four individual CVs on file (5.d)",
+        "short": "Team experience summary + four CVs (5.d)",
+        "toc_ref": "5.d",
+        "updated": "2026-03-11",
+        "provider": "Climate Investment Partners LLC",
+        "status": "verified",
+        "caveats": "Professional bio only. The source CVs carry home addresses, personal phone numbers and personal email addresses; none of that is reproduced here, and the schema's field whitelist blocks it from being added without a schema change."
+      }
+    },
+    "execution": {
+      "toc_ref": "5.b",
+      "availability": {
+        "state": "provided"
+      },
+      "milestones": [
+        {
+          "label": "Detailed feasibility study completed",
+          "date": "2023-12",
+          "date_precision": "month",
+          "achieved": true,
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 — milestone table, p.46",
+            "short": "Project description 3.11.26, milestone table p.46",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "label": "Entooma Sidai Limited formed as the project SPV",
+          "date": "2023-12-19",
+          "date_precision": "day",
+          "achieved": true,
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 — milestone table, p.46",
+            "short": "Project description 3.11.26, milestone table p.46",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "label": "Partnership agreement signed between Entooma Sidai Limited and CIP",
+          "date": "2024-01-22",
+          "date_precision": "day",
+          "achieved": true,
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 — milestone table, p.46",
+            "short": "Project description 3.11.26, milestone table p.46",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "label": "Submitted to the Verra registry as under development",
+          "date": "2024-02-21",
+          "date_precision": "day",
+          "achieved": true,
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 — milestone table, p.46",
+            "short": "Project description 3.11.26, milestone table p.46",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "label": "Community surveys, biodiversity studies and ESIA initiated; ESIA and Project Concept Note submitted to NEMA; letter of no objection issued",
+          "date": "2026",
+          "date_precision": "year",
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 — milestone table, p.46 (each stated as '2026 (expected)')",
+            "short": "Project description 3.11.26, milestone table p.46",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified",
+            "caveats": "Five separate 2026 milestones in the source, grouped here because the source gives them all the same bare year and no ordering within it."
+          }
+        },
+        {
+          "label": "VCS and CCB validation, project registration, and NEMA letter of approval",
+          "date": "2027",
+          "date_precision": "year",
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 — milestone table, p.46 (each stated as '2027 (expected)')",
+            "short": "Project description 3.11.26, milestone table p.46",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "label": "First monitoring and verification event",
+          "date": "2028",
+          "date_precision": "year",
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 — milestone table, p.46",
+            "short": "Project description 3.11.26, milestone table p.46",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "label": "Second community survey round and second verification; verifications every 2–3 years thereafter",
+          "date": "2029",
+          "date_precision": "year",
+          "provenance": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 — milestone table, pp.46–47",
+            "short": "Project description 3.11.26, milestone table pp.46-47",
+            "toc_ref": "4.a",
+            "updated": "2026-03-11",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        }
+      ],
+      "staffing_summary": {
+        "text": "Hiring splits in two. Professional roles — Managing Director and Deputy, Directors for Administration, Carbon, Communities, Finance and Operations, plus a Soil Scientist/Agronomist, Community Engagement Manager, Rangeland Ecologist and Quality Control/Data Manager — are recruited by the SPV drawing on CIP's, Entooma Sidai Limited's and CarbonSolve's networks in Kenya. Community roles, principally Grazing Officers and Grazing Coordinators, are selected by the participating Maasai communities themselves through their existing village structures, with elders taking the monitoring and compliance role and educated youth filling Coordinator positions. The plan states the majority of key positions and roles have already been decided, and identifies which roles are expected to be hardest to fill.",
+        "provenance": {
+          "source": "High-Level Staffing Plan for the Entooma Sidai Project (05-20-2026), pp.1–2",
+          "short": "Staffing plan 2026-05-20, pp.1-2",
+          "toc_ref": "5.b",
+          "updated": "2026-05-20",
+          "provider": "Climate Investment Partners LLC",
+          "status": "verified",
+          "caveats": "The plan names roles, not headcounts. Every employment and training headcount in the project description's own benefit-metrics table is a placeholder ('TBD', '~xx', '~xxx'), so no staffing number is stated anywhere."
+        }
+      },
+      "ifc_ps_alignment": {
+        "text": "CIP maintains a standing alignment note against the IFC's eight Performance Standards on Environmental and Social Sustainability (2012): assessment and management of E&S risks; labour and working conditions; resource efficiency and pollution prevention; community health, safety and security; land acquisition and involuntary resettlement; biodiversity conservation; Indigenous Peoples; and cultural heritage. The note walks each standard and states which project procedure addresses it.",
+        "provenance": {
+          "source": "Climate Investment Partners' Alignment with the International Finance Corporation's Performance Standards (5-21-2026)",
+          "short": "IFC PS alignment note 2026-05-21",
+          "toc_ref": "5.c",
+          "updated": "2026-05-21",
+          "provider": "Climate Investment Partners LLC",
+          "status": "verified",
+          "caveats": "A self-assessment by the developer, not an external audit finding or an IFC determination."
+        }
+      }
+    },
+    "market": {
+      "toc_ref": "3.a",
+      "availability": {
+        "state": "provided"
+      },
+      "figures": [
+        {
+          "label": "Average price, voluntary forest carbon offsets (2024)",
+          "figure": {
+            "state": "provided",
+            "value": 9.27,
+            "unit": "USD/offset"
+          },
+          "provenance": {
+            "source": "CIP's Analysis of the Market Context (7-14-2026), Figure 1 table, p.7 (Ecosystem Marketplace data)",
+            "short": "Market context analysis 2026-07-14, Fig. 1 p.7",
+            "toc_ref": "3.a",
+            "updated": "2026-07-14",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified",
+            "caveats": "Chosen as the most decision-relevant single market figure because it is the closest comparator to this project's own price assumption: the financial model opens at USD$25/VCU, roughly 2.7x this. The all-market 2024 average in the same table is $6.34."
+          }
+        },
+        {
+          "label": "Voluntary carbon market, total value transacted (2024)",
+          "figure": {
+            "state": "provided",
+            "value": 535100000,
+            "unit": "USD"
+          },
+          "provenance": {
+            "source": "CIP's Analysis of the Market Context (7-14-2026), Figure 1 table, p.7 (Ecosystem Marketplace data)",
+            "short": "Market context analysis 2026-07-14, Fig. 1 p.7",
+            "toc_ref": "3.a",
+            "updated": "2026-07-14",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified",
+            "caveats": "84.4 million offsets transacted at a $6.34 average. The analysis notes Ecosystem Marketplace's reported totals are skewed by reporting lags."
+          }
+        },
+        {
+          "label": "Projected voluntary carbon offset market size by 2030",
+          "figure": {
+            "state": "provided",
+            "value": 50000000000,
+            "unit": "USD"
+          },
+          "provenance": {
+            "source": "CIP's Analysis of the Market Context (7-14-2026), p.10, citing McKinsey & Company (2021)",
+            "short": "Market context analysis 2026-07-14, p.10",
+            "toc_ref": "3.a",
+            "updated": "2026-07-14",
+            "provider": "McKinsey & Company, via Climate Investment Partners LLC",
+            "status": "verified",
+            "caveats": "A 2021 third-party projection quoted in CIP's 2026 analysis, not CIP's own estimate and not recent. Included as the growth-trajectory figure; the same page quotes a separate Berenberg estimate of $200 billion by 2050."
+          }
+        }
+      ],
+      "provenance": {
+        "source": "CIP's Analysis of the Market Context (7-14-2026)",
+        "short": "Market context analysis 2026-07-14",
+        "toc_ref": "3.a",
+        "updated": "2026-07-14",
+        "provider": "Climate Investment Partners LLC",
+        "status": "verified",
+        "caveats": "Three figures is the schema cap. Selected for decision-relevance to an investor in this specific project — current realised price for the nearest comparable credit type, current market size, and projected growth — rather than the first three figures in the document, which are historical VCM transaction tables running from 2012."
+      }
+    },
+    "risks_faq": {
+      "toc_ref": "8.c",
+      "availability": {
+        "state": "provided"
+      },
+      "items": [
+        {
+          "id": "maasai-carbon-controversies",
+          "question": "What prevents this project running into the controversies reported between Maasai communities and other carbon projects?",
+          "answer": "The FAQ's answer rests on four structural differences from the Northern Kenya Grassland Carbon Project (Verra ID 1468): the project was initiated by the local Maasai communities themselves rather than introduced to them; the project area is ethnically homogenous, so the interethnic conflicts seen elsewhere are not expected; it operates on privately-owned land rather than community land, so each individual landowner undergoes FPIC and signs up individually; and grazing plans are developed by the communities' own elders rather than imposed. The answer is a design argument, not an outcome yet observed.",
+          "provenance": {
+            "source": "FAQs for Entooma Sidai Project (7-20-2026), Q4",
+            "short": "Project FAQ 2026-07-20, Q4",
+            "toc_ref": "8.c",
+            "updated": "2026-07-20",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "id": "loi-coverage",
+          "question": "How much land is signed up, and how binding is it?",
+          "answer": "315,000+ hectares are signed under Letters of Intent against a target of 500,000 to 650,000 hectares. LOIs are not the binding instrument: the project intends to engage one of two Kenyan law firms to run land-title searches against the national registry and draft the Benefit Sharing Agreement that transfers carbon rights. Neither the firm engagement nor those agreements had happened as at the FAQ's date.",
+          "provenance": {
+            "source": "FAQs for Entooma Sidai Project (7-20-2026), Q7",
+            "short": "Project FAQ 2026-07-20, Q7",
+            "toc_ref": "8.c",
+            "updated": "2026-07-20",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "id": "government-revenue-share",
+          "question": "Has the Kenyan government's revenue share been agreed?",
+          "answer": "No. The project states it will follow all fees set out in the Climate Change (Carbon Markets) Regulations, 2024, but the exact amount remains to be determined, with discussions ongoing with both Narok County officials and NEMA as Kenya's national focal point.",
+          "provenance": {
+            "source": "FAQs for Entooma Sidai Project (7-20-2026), Q10",
+            "short": "Project FAQ 2026-07-20, Q10",
+            "toc_ref": "8.c",
+            "updated": "2026-07-20",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified"
+          }
+        },
+        {
+          "id": "methodology-version",
+          "question": "Which version of the VM0032 methodology will the project use?",
+          "answer": "The FAQ states the project will use the latest version of VM0032 — version 2.0, which was itself 'under development' as of 20 July 2026 — and expects only a negligible effect on emission reductions, with the project likely to issue removals only. The project description on file applies v1.0, so the two documents differ on this point.",
+          "provenance": {
+            "source": "FAQs for Entooma Sidai Project (7-20-2026), Q9; version applied per Entooma Sidai CCB-and-VCS Project Description, 3.11.26, p.9",
+            "short": "Project FAQ 2026-07-20, Q9; PD 3.11.26 p.9",
+            "toc_ref": "8.c",
+            "updated": "2026-07-20",
+            "provider": "Climate Investment Partners LLC",
+            "status": "verified",
+            "caveats": "Included because it is a live methodology risk: a project cannot validate against a methodology version that is still under development, and the newer of the two documents is the one asserting the newer version."
+          }
+        }
+      ]
+    }
+  }
+}

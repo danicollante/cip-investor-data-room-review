@@ -1,0 +1,1368 @@
+{
+  "project": "entooma-sidai",
+  "source": "ct7e837wxlnepgyz.html",
+  "sourceSha256": "6d71e528e1e4d4a5e92ade2cf50cdae8decab183943621265b83b1ae9d95d93d",
+  "sectionCount": 8,
+  "documentCount": 151,
+  "sections": [
+    {
+      "id": "1",
+      "title": "1. Introduction to CIP and the Project",
+      "subsections": [
+        {
+          "id": "1-a",
+          "title": "a. Introduction to CIP",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-5d3638e7e887",
+              "name": "CIP Investor Presentation_vfinal_2026.09.08.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-2506fc0788da",
+              "name": "CIP_Project_Experience_2026_08_06.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "1-b",
+          "title": "b. Introduction to the Project",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-dc9ce5b7fdf8",
+              "name": "CIP_EntoomaSidai_OnePager_7-30-2026.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-f613d15e3125",
+              "name": "Entooma Sidai - Brochure.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-91f3573fcdbd",
+              "name": "Entooma Sidai - PIN.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-a871bdda6a22",
+              "name": "Entooma Sidai - Slide Deck.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-68b1f7c90092",
+              "name": "MaasaiMaraCorridor_Rapid Assessment.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "1-c",
+          "title": "c. Photos and Videos",
+          "emptyState": "media",
+          "documents": [],
+          "folders": [
+            {
+              "name": "Project Zone's Biodiversity",
+              "path": "Project Zone's Biodiversity",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Stakeholder Engagement",
+              "path": "Stakeholder Engagement",
+              "label": "",
+              "emptyState": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "2. Financials",
+      "subsections": [
+        {
+          "id": "2-a",
+          "title": "a. Project-Level Financials",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-dffc04e4d5d4",
+              "name": "Entooma Sidai - Financial Model 2026.08.13.xlsx",
+              "format": "XLSX",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-569ba38048fd",
+              "name": "Entooma Sidai Feasibility ER Calculations 2026.03.16.xlsx",
+              "format": "XLSX",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "3. Market Context",
+      "subsections": [
+        {
+          "id": "3-a",
+          "title": "a. Market Context",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-d51cb8fe9adf",
+              "name": "CIP's Analysis of the Market Context (7-14-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "4. Project Documentation",
+      "subsections": [
+        {
+          "id": "4-a",
+          "title": "a. Historical Feasibility Study",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-f5c852697f7a",
+              "name": "Entooma Sidai Feasibility Study (Final; 12.12.23).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "4-b",
+          "title": "b. Current Project Document",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-f7893820ae36",
+              "name": "Entooma Sidai CCB-and-VCS-Project-Description - 3.11.26 (clean) - DRAFT.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-03f43fc840d5",
+              "name": "VCS PD DRAFT 4994 21FEB2024.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "5. Operations",
+      "subsections": [
+        {
+          "id": "5-a",
+          "title": "a. Proposed SPV and Investment Structure",
+          "emptyState": "empty",
+          "documents": [],
+          "folders": []
+        },
+        {
+          "id": "5-b",
+          "title": "b. Standard Operating Procedures",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-f78f1a8df70c",
+              "name": "CIP - Carbon Management SOP (05-26-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-d8f4e47d2d0f",
+              "name": "CIP - Forest Guards (05-26-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-b1870e815069",
+              "name": "CIP - Identifying Lands SOP 05-26-26.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-0d9a7af1a8b3",
+              "name": "CIP - Mitigating Fire (05-25-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-fe0ae08e7b8a",
+              "name": "CIP - SOP for Preparation for Remote Site Visits (5-26-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ee11103bdf2a",
+              "name": "CIP - Tree Nursery, Greenhouse SOP 5-26-26.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-3eb4b91c2ee4",
+              "name": "CIP's Alignment with the IFC Performance Standards (5-21-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-7b8a0ff287e3",
+              "name": "CIP's Field Security Protocol (7-8-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-679e129deb2b",
+              "name": "CIP's FPIC SOP (5-26-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-bd00601366cf",
+              "name": "Emergency booklet-REV04.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-25c5cd51cce2",
+              "name": "KoboToolbox Overview 5.26.26.pptx",
+              "format": "PPTX",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-976d0e2fac4b",
+              "name": "Packing List and Safety Guidelines for Kenya (02-22-2024).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-bd26e481f0e6",
+              "name": "Project Visit Safety Assessment Template (5-26-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-3198667fee02",
+              "name": "Train the Trainers Guide for FPIC (May 26, 2026).pptx",
+              "format": "PPTX",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "5-c",
+          "title": "c. Project-Level Plans",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-87483597e7a1",
+              "name": "High-Level Staffing Plan for the Entooma Sidai Project (05-20-2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-cedf7af96c40",
+              "name": "Project Execution Plan (5-20-2026) - Entooma Sidai.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "5-d",
+          "title": "d. Local Experience",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-5416c0408e4e",
+              "name": "David Evers LinkedIn CV.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-5ccb0582681d",
+              "name": "Dr. Mark Ritchie LinkedIn CV.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-78e7df767d77",
+              "name": "Githaiga Kamau LinkedIn CV.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ba001f7ea34b",
+              "name": "Local Project Experience of Entooma Sidai Team.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-50065fe70f5d",
+              "name": "Timothy Tear LinkedIn CV.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "5-e",
+          "title": "e. Other",
+          "emptyState": "empty",
+          "documents": [],
+          "folders": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "6. Maps and GIS",
+      "subsections": [
+        {
+          "id": "6-a",
+          "title": "a. Maps and GIS",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-a3c1c8c7ce96",
+              "name": "entooma_sidai_target_area_03.13.2026.kmz",
+              "format": "KMZ",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-64bf5dfeaf84",
+              "name": "Entooma Sidai Project Area Delineation_03_13_2026.docx",
+              "format": "DOCX",
+              "groupPath": "Land Cover Analysis",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-1700007cbc03",
+              "name": "Crops_area_2023_10_18.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ff0bb8eebb6a",
+              "name": "Crops_area_2023_10_18.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-39b1b312093e",
+              "name": "Crops_area_2023_10_18.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-08ea7b846949",
+              "name": "Crops_area_2023_10_18.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-0d9b748ba7b3",
+              "name": "Crops_area_2023_10_18.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-f636632334de",
+              "name": "Forest_removals_2023.10.19.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-2f0bdd130411",
+              "name": "Forest_removals_2023.10.19.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-9e8cfae00260",
+              "name": "Forest_removals_2023.10.19.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-6e3e7efc86c8",
+              "name": "Forest_removals_2023.10.19.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-945dc79c057c",
+              "name": "Forest_removals_2023.10.19.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-fea8ba9de453",
+              "name": "isolated_islands.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-6946ea26adcb",
+              "name": "isolated_islands.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-498877bb71d2",
+              "name": "isolated_islands.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-941e89688f60",
+              "name": "isolated_islands.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-1047745fd00b",
+              "name": "isolated_islands.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-e6990082fa85",
+              "name": "mara_conservancies.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-d1fcbbfc0c42",
+              "name": "mara_conservancies.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-129cda212e52",
+              "name": "mara_conservancies.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-8b6a7280ea56",
+              "name": "mara_conservancies.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-707d54a8ee1d",
+              "name": "mara_conservancies.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-a52f5298d9eb",
+              "name": "Mara_reserve_2023_10_18.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-4c5980130a7f",
+              "name": "Mara_reserve_2023_10_18.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ec992971a2cc",
+              "name": "Mara_reserve_2023_10_18.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-a39e54fdbd2e",
+              "name": "Mara_reserve_2023_10_18.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-3d242aa257bc",
+              "name": "Mara_reserve_2023_10_18.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-40fb36e8690f",
+              "name": "Narok_North_subcounty.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-0087b3a4e9b0",
+              "name": "Narok_North_subcounty.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-a9477a07e72f",
+              "name": "Narok_North_subcounty.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-1ef00c24c69b",
+              "name": "Narok_North_subcounty.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-db1ae66d404f",
+              "name": "Narok_North_subcounty.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-297ea7c8ac3b",
+              "name": "North_discount_2023.10.19.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-9d336ecc7951",
+              "name": "North_discount_2023.10.19.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-af0a23248eea",
+              "name": "North_discount_2023.10.19.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-78d3d2688e6e",
+              "name": "North_discount_2023.10.19.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-56ddb80cdbbb",
+              "name": "North_discount_2023.10.19.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-9d2324fb3ad8",
+              "name": "transmara_subcounties.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-657341766253",
+              "name": "transmara_subcounties.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-fae5eca090b0",
+              "name": "transmara_subcounties.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-0904650e916c",
+              "name": "transmara_subcounties.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-de47ddd6bdce",
+              "name": "transmara_subcounties.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-11d110c305ba",
+              "name": "entooma_sidai_target_area_03.13.2026.dbf",
+              "format": "DBF",
+              "groupPath": "Land Cover Analysis / Shapefiles / Target project Area",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-be8344239f16",
+              "name": "entooma_sidai_target_area_03.13.2026.prj",
+              "format": "PRJ",
+              "groupPath": "Land Cover Analysis / Shapefiles / Target project Area",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-c745d07334e1",
+              "name": "entooma_sidai_target_area_03.13.2026.qmd",
+              "format": "QMD",
+              "groupPath": "Land Cover Analysis / Shapefiles / Target project Area",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-3e236da8b5c1",
+              "name": "entooma_sidai_target_area_03.13.2026.shp",
+              "format": "SHP",
+              "groupPath": "Land Cover Analysis / Shapefiles / Target project Area",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-fd51c9dd75e3",
+              "name": "entooma_sidai_target_area_03.13.2026.shx",
+              "format": "SHX",
+              "groupPath": "Land Cover Analysis / Shapefiles / Target project Area",
+              "groupLabel": ""
+            }
+          ],
+          "folders": [
+            {
+              "name": "Land Cover Analysis",
+              "path": "Land Cover Analysis",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Shapefiles",
+              "path": "Land Cover Analysis / Shapefiles",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Narok County Removal Areas",
+              "path": "Land Cover Analysis / Shapefiles / Narok County Removal Areas",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Target project Area",
+              "path": "Land Cover Analysis / Shapefiles / Target project Area",
+              "label": "",
+              "emptyState": "content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "7. Legal Files",
+      "subsections": [
+        {
+          "id": "7-a",
+          "title": "a. Due Diligence on Local Partner",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-034e877ad94b",
+              "name": "Framework for Country and Firm-Level Assessment (10-25-2023) - KENYA.docx",
+              "format": "DOCX",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-9cee2119bfd0",
+              "name": "MOU Between SRC,AAH AND AKILI  Entoma sidai project - Final.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-847d5ac6266e",
+              "name": "AAHI Registration Certificate.pdf",
+              "format": "PDF",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-f37725da1647",
+              "name": "Activity report - SRC Carbon credit training.pdf",
+              "format": "PDF",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-d9ae95c6f901",
+              "name": "Activity report - SRC Climate change awareness Report.pdf",
+              "format": "PDF",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-f245debbd719",
+              "name": "Activity Report- SRC Community engagements.pdf",
+              "format": "PDF",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-e76ac2efef9c",
+              "name": "Activity Report- SRC, Community and AAH-I partnership.pdf",
+              "format": "PDF",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-30d4d8cdb14c",
+              "name": "Githaiga's ID.pdf",
+              "format": "PDF",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-9cd32e47593f",
+              "name": "Sand River's Certificate.jpg",
+              "format": "JPG",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-3c14706695b8",
+              "name": "SRC meeting minutes.pdf",
+              "format": "PDF",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-e63a15c564d8",
+              "name": "SRC Members list and Passport of CBO.pdf",
+              "format": "PDF",
+              "groupPath": "AAHI-SRC",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-c34f6cfee4e6",
+              "name": "AHL Mem Arts.pdf",
+              "format": "PDF",
+              "groupPath": "Akili",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-f9c1713f4658",
+              "name": "Beneficial Owner Certificate - Akili.pdf",
+              "format": "PDF",
+              "groupPath": "Akili",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-13bf38cb90c4",
+              "name": "Good Standing - Akili.pdf",
+              "format": "PDF",
+              "groupPath": "Akili",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-462d32ffd8c4",
+              "name": "Certificate of Incorporation.pdf",
+              "format": "PDF",
+              "groupPath": "Entooma Sidai Limited",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-a3863050881c",
+              "name": "Company Search - CR12.pdf",
+              "format": "PDF",
+              "groupPath": "Entooma Sidai Limited",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-51f06aeff730",
+              "name": "PIN - Entooma Sidai Limited.pdf",
+              "format": "PDF",
+              "groupPath": "Entooma Sidai Limited",
+              "groupLabel": ""
+            }
+          ],
+          "folders": [
+            {
+              "name": "AAHI-SRC",
+              "path": "AAHI-SRC",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Akili",
+              "path": "Akili",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Entooma Sidai Limited",
+              "path": "Entooma Sidai Limited",
+              "label": "",
+              "emptyState": "content"
+            }
+          ]
+        },
+        {
+          "id": "7-b",
+          "title": "b. Land Ownership",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-711a75f4fdb1",
+              "name": "Entooma Sidai LOI Example 1.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-32f05a12bde0",
+              "name": "Entooma Sidai LOI Example 2.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-56ef16fde0d4",
+              "name": "Entooma Sidai LOI Example 3.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "7-c",
+          "title": "c. Laws and Regulations",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-a124f54d6d4e",
+              "name": "Climate Change (Carbon Markets) Regulations 2023 with Schedules.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-9a98bb2b1e4c",
+              "name": "CommunityLandAct27of2016.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-1e4effb492c3",
+              "name": "GMME-Management-Plan-200320238_compressed.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-74ca392be056",
+              "name": "Kenya Climate Change Act No 11 of 2016.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-2d1e4734d67f",
+              "name": "kenya_climate_smart_agriculture_strategy.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-e13fd701cfe3",
+              "name": "Land Act (2012).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-4ec753222cf7",
+              "name": "Land Registration Act (2012).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-a14c72b0cf63",
+              "name": "LN 84-CLIMATE CHANGE (CARBON MARKETS) REGULATIONS, 2024 formatted.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-e5c114e2929f",
+              "name": "NAROK-CIDP-2023-2027.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-7abe14ccbef9",
+              "name": "RANGE-MANAGEMENT-AND-PASTORALISM-STRATTEGY.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-65449f8ed881",
+              "name": "Regulatory-Impact-Statement_-Draft-Climate-Change-Carbon-Markets-Regulations_January-2024.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-31ed6ee89101",
+              "name": "The Climate Change (Amendment) Act, 2023.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ae45e4029906",
+              "name": "THE-CLIMATE-CHANGECARBON-MARKETS-REGULATIONS2023-1.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-90b6f713819a",
+              "name": "The_Constitution_of_Kenya_2010.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "7-d",
+          "title": "d. Legal Analysis and Letters of Support",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-a07d2f37925f",
+              "name": "Narok County Letter (Dept. Agriculture, Livestock and Fisheries).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-4fee3297e98e",
+              "name": "Narok County Letter (Dept. Environment, Water, Energy, Natural Resources, and Climate Change).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "8. Supplementary Information",
+      "subsections": [
+        {
+          "id": "8-a",
+          "title": "a. General Country Data",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-f62a7c2456e4",
+              "name": "BTI Kenya Country Report (2026).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-9e8125ecbd91",
+              "name": "How Kenya Emerged as Global Leader for Carbon Market Investment (5-13-2024).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-6641efadf406",
+              "name": "IMF Kenya Country Report No. 24-14 2024.pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-d236d41e34c6",
+              "name": "World Bank's Kenya Country Climate and Development Report (2023).pdf",
+              "format": "PDF",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        },
+        {
+          "id": "8-b",
+          "title": "b. Reference Projects",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-e7b36d649521",
+              "name": "CCB VCS PD DRAFT 4714 020072024.pdf",
+              "format": "PDF",
+              "groupPath": "Kajiado Rangelands Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-cca894e54225",
+              "name": "VCS_PROJ_DESC_DRAFT_4714_19SEP2023.pdf",
+              "format": "PDF",
+              "groupPath": "Kajiado Rangelands Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-26f07211929d",
+              "name": "20220630V2_K2C_VCS-Project-Description-Pipeline.pdf",
+              "format": "PDF",
+              "groupPath": "Kruger to Canyons Rangeland Restoration Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-03bd93f039ca",
+              "name": "CCB Translated Project Description.pdf",
+              "format": "PDF",
+              "groupPath": "Kruger to Canyons Rangeland Restoration Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ec062f8f90d3",
+              "name": "VCS_PROJ_DESC_PCP_3397_16APR2023.pdf",
+              "format": "PDF",
+              "groupPath": "Kruger to Canyons Rangeland Restoration Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-b451192e0e98",
+              "name": "VCS_PROJ_DESC_DRAFT_4924_12JAN2024.pdf",
+              "format": "PDF",
+              "groupPath": "Longido and Monduli Rangelands Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-fa9e4f869fca",
+              "name": "CCB VCS MR Project 1468 DRAFT 01Jan2021-31Dec2021 v1.0.docx.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-6d3e0948a951",
+              "name": "CCB VCS Nat Language MR Project 1468 DRAFT 01Jan2021-31Dec2021_v1.0.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-c0de5e179125",
+              "name": "CCB_IMP_REP_ENG_1468_10DEC2012_31DEC2016_V1.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-50e7b05e6773",
+              "name": "CCB_IMP_REP_ENG_DRAFT_1468_10DEC2012_31DEC2014_V1.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ed2e25ba2141",
+              "name": "CCB_IMP_REP_ENG_DRAFT_1468_10DEC2012_31JUL2016_V2.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-77a7cddd7fea",
+              "name": "CCB_IMP_REP_SUM_SWA_1468_10DEC2012_31DEC2016_V1.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-6ad861ffb794",
+              "name": "CCB_IMP_REP_SUM_SWA_DRAFT_1468_10DEC2012_31DEC2014_V1.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ce4c667f2c7f",
+              "name": "CCB_IMP_REP_SUM_SWA_DRAFT_1468_10DEC2012_31JUL2016_V2.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-395459f00153",
+              "name": "CCB_PROJ_DESC_ENG_1468_15AUG2016.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-969a4bdc8e7b",
+              "name": "CCB_PROJ_DESC_ENG_DRAFT_1468_15AUG2016.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-00e37d699c05",
+              "name": "CCB_PROJ_DESC_ENG_DRAFT_1468_31JUL2015.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-52c3619a321c",
+              "name": "CCB_PROJ_DESC_SUM_SWA_1468_31AUG2017.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-998dc5e06237",
+              "name": "CCB_PROJ_DESC_SUM_SWA_DRAFT_1468_15AUG2016.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-77ab691e765e",
+              "name": "CCB_PROJ_DESC_SUM_SWA_DRAFT_1468_31JUL2015.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-5bf0e83d2e57",
+              "name": "Draft Project Description15_June_2015.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-36b50ffa744a",
+              "name": "NKCP Nat Lang Summary VCS CCB Monitoring Report 2021.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-dce403df7ccd",
+              "name": "NKCP VCS CCB Monitoring Report 20201002 v3.9.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-4cf66d316b2e",
+              "name": "NKCP VCS CCB Monitoring Report_2017-2020 v1.9_Swahili Version.docx.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-ace208583411",
+              "name": "NKCP VCS CCB Monitoring Report_2017-2020 v1.13_8_23.docx.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-53d192991993",
+              "name": "NKCP VCS CCB Proj Descr Apr 28 2020 FINAL.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-083c343e44e5",
+              "name": "NKCP VCS CCB Project Description v2.1.3.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-1a2779cc668d",
+              "name": "Northern Kenya Grassland Carbon Project 2017-2020 combined CCB-VR 5.1-clean (1).pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            },
+            {
+              "id": "toc-file-40ba03095425",
+              "name": "PROOF_OF_CONCEPT_1468_21July2015.pdf",
+              "format": "PDF",
+              "groupPath": "Northern Kenya Grassland Carbon Project",
+              "groupLabel": ""
+            }
+          ],
+          "folders": [
+            {
+              "name": "Kajiado Rangelands Carbon Project",
+              "path": "Kajiado Rangelands Carbon Project",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Kruger to Canyons Rangeland Restoration Project",
+              "path": "Kruger to Canyons Rangeland Restoration Project",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Longido and Monduli Rangelands Carbon Project",
+              "path": "Longido and Monduli Rangelands Carbon Project",
+              "label": "",
+              "emptyState": "content"
+            },
+            {
+              "name": "Northern Kenya Grassland Carbon Project",
+              "path": "Northern Kenya Grassland Carbon Project",
+              "label": "",
+              "emptyState": "content"
+            }
+          ]
+        },
+        {
+          "id": "8-c",
+          "title": "c. Frequently Asked Questions",
+          "emptyState": "content",
+          "documents": [
+            {
+              "id": "toc-file-34e13175eaf1",
+              "name": "FAQs for Entooma Sidai Project (7-20-2026).docx",
+              "format": "DOCX",
+              "groupPath": "",
+              "groupLabel": ""
+            }
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "citationTargets": {
+    "src-1-intro-cip-entoomasidai-onepager-7-30-2026-pdf-8ed19d6a": "toc-file-dc9ce5b7fdf8",
+    "src-1-intro-entooma-sidai-pin-pdf-b8eafbed": "toc-file-91f3573fcdbd",
+    "src-2-financials-entooma-sidai-feasibility-er-calculations--b939e257": "toc-file-569ba38048fd",
+    "src-2-financials-entooma-sidai-financial-model-2026-08-13-x-30b34a78": "toc-file-dffc04e4d5d4",
+    "src-4-project-docs-entooma-sidai-ccb-and-vcs-project-descript-16e1434c": "toc-file-f7893820ae36",
+    "src-4-project-docs-entooma-sidai-feasibility-study-final-12-1-2af60163": "toc-file-f5c852697f7a",
+    "src-6-gis-entooma-sidai-target-area-03-13-2026-kmz-dd2a293a": "toc-file-a3c1c8c7ce96",
+    "src-6-gis-entooma-sidai-target-area-03-13-2026-shp-s-672d7464": "toc-file-3e236da8b5c1",
+    "src-7-legal-ln-84-climate-change-carbon-markets-regula-3e25e906": "toc-file-a14c72b0cf63",
+    "src-7-legal-mou-between-src-aah-and-akili-entooma-sida-c4feda99": "toc-file-9cee2119bfd0",
+    "src-7-legal-narok-county-letter-dept-agriculture-lives-94391792": "toc-file-a07d2f37925f",
+    "src-7-legal-narok-county-letter-dept-environment-water-239b0497": "toc-file-4fee3297e98e",
+    "src-8-supplementary-faqs-for-entooma-sidai-project-7-20-2026-d-69c93cbb": "toc-file-34e13175eaf1"
+  }
+}

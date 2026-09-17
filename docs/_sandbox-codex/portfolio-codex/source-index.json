@@ -1,0 +1,829 @@
+{
+  "project": "entooma-sidai",
+  "source": "sources/entooma-sidai/INDEX.md",
+  "sourceSha256": "a9cad0f71049d006540e27052ccd760af947b600f8380323900efa48c9a60017",
+  "entryCount": 77,
+  "sections": [
+    {
+      "id": "1-intro",
+      "title": "Introduction to CIP and the project",
+      "toc": "TOC 1.a / 1.b",
+      "entries": [
+        {
+          "id": "src-1-intro-cip-investor-presentation-vfinal-2026-09-0-7f5be720",
+          "file": "CIP Investor Presentation_vfinal_2026.09.08.pdf",
+          "toc": "1.a",
+          "usedFor": "identity, headline figures, market cross-check",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-1-intro-cip-entoomasidai-onepager-7-30-2026-pdf-8ed19d6a",
+          "file": "CIP_EntoomaSidai_OnePager_7-30-2026.pdf",
+          "toc": "1.b",
+          "usedFor": "identity, headline figures",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-1-intro-entooma-sidai-brochure-pdf-9fd0eb77",
+          "file": "Entooma Sidai - Brochure.pdf",
+          "toc": "1.b",
+          "usedFor": "identity, narrative framing",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-1-intro-entooma-sidai-slide-deck-pdf-963c301d",
+          "file": "Entooma Sidai - Slide Deck.pdf",
+          "toc": "1.b",
+          "usedFor": "identity, execution overview",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-1-intro-entooma-sidai-pin-pdf-b8eafbed",
+          "file": "Entooma Sidai - PIN.pdf",
+          "toc": "1.b",
+          "usedFor": "identity (registry id, standard, methodology, status)",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-1-intro-maasaimaracorridor-rapid-assessment-pdf-cb8f1a05",
+          "file": "MaasaiMaraCorridor_Rapid Assessment.pdf",
+          "toc": "1.a",
+          "usedFor": "impact baseline context",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-1-intro-cip-project-experience-2026-08-06-pdf-28e2abda",
+          "file": "CIP_Project_Experience_2026_08_06.pdf",
+          "toc": "1.a",
+          "usedFor": "Not in Appendix A. CIP-level track record, not project-specific — possible identity/context support, not a required figure source.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-1-intro-c-photos-and-videos-project-zone-s-biodive-e39406d9",
+          "file": "c. Photos and Videos/Project Zone's Biodiversity/ (91 files: JPG/CR3)",
+          "toc": "1.a",
+          "usedFor": "Not in Appendix A. Wildlife/landscape photography — potential page imagery, not a figure source.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "MEDIA"
+        },
+        {
+          "id": "src-1-intro-c-photos-and-videos-stakeholder-engagement-fd767443",
+          "file": "c. Photos and Videos/Stakeholder Engagement/ (63 files: JPG/MP4)",
+          "toc": "1.a",
+          "usedFor": "Not in Appendix A. Contains identifiable people at what appear to be community/site-visit engagements. Deliberately kept out of the data contract for now — pending image-release consent, not a sourcing gap: the files exist and are present, they're withheld pending consent, so this is not recorded in GAPS.md. Dani is confirming with the field/comms team separately. Same standing caveat Groundtruth recorded for comparable community photos (see CLAUDE.md §on unused photos). Do not reference from any section until that confirmation lands.",
+          "status": "withheld",
+          "statusDetail": "present — withheld pending consent",
+          "format": "MEDIA"
+        }
+      ]
+    },
+    {
+      "id": "2-financials",
+      "title": "Financials",
+      "toc": "TOC 2.a",
+      "entries": [
+        {
+          "id": "src-2-financials-entooma-sidai-financial-model-2026-08-13-x-30b34a78",
+          "file": "Entooma Sidai - Financial Model 2026.08.13.xlsx",
+          "toc": "2.a",
+          "usedFor": "financials — ER volume by year, price assumptions, revenue by scenario, capex/opex, IRR/NPV only if stated",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "XLSX"
+        },
+        {
+          "id": "src-2-financials-entooma-sidai-feasibility-er-calculations--b939e257",
+          "file": "Entooma Sidai Feasibility ER Calculations 2026.03.16.xlsx",
+          "toc": "2.a",
+          "usedFor": "financials — ER volume by year (cross-check)",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "XLSX"
+        }
+      ]
+    },
+    {
+      "id": "3-market",
+      "title": "Market context",
+      "toc": "TOC 3.a",
+      "entries": [
+        {
+          "id": "src-3-market-cip-s-analysis-of-the-market-context-7-14--77080324",
+          "file": "CIP's Analysis of the Market Context (7-14-2026).pdf",
+          "toc": "3.a",
+          "usedFor": "market — 2–3 sourced figures, max",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "id": "4-project-docs",
+      "title": "Project documentation",
+      "toc": "TOC 4.a / 4.b",
+      "entries": [
+        {
+          "id": "src-4-project-docs-entooma-sidai-ccb-and-vcs-project-descript-16e1434c",
+          "file": "Entooma Sidai CCB-and-VCS-Project-Description - 3.11.26 (clean) - DRAFT.pdf",
+          "toc": "4.a",
+          "usedFor": "impact re-sourcing, identity crediting period — newest PD, wins over both documents below",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-4-project-docs-entooma-sidai-feasibility-study-final-12-1-2af60163",
+          "file": "Entooma Sidai Feasibility Study (Final; 12.12.23).pdf",
+          "toc": "4.b",
+          "usedFor": "impact, execution — superseded by the 3.11.26 PD wherever they overlap",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-4-project-docs-vcs-pd-draft-4994-21feb2024-pdf-a615d79c",
+          "file": "VCS PD DRAFT 4994 21FEB2024.pdf",
+          "toc": "4.a",
+          "usedFor": "Not in Appendix A (an intermediate PD draft). Superseded by the 3.11.26 PD per the newest-document rule — not cited.",
+          "status": "extra",
+          "statusDetail": "extra — superseded, do not cite",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "id": "5-operations",
+      "title": "Operations and team",
+      "toc": "TOC 5.b / 5.c / 5.d",
+      "entries": [
+        {
+          "id": "src-5-operations-project-execution-plan-5-20-2026-entooma-s-d43c9696",
+          "file": "Project Execution Plan (5-20-2026) - Entooma Sidai.pdf",
+          "toc": "5.b",
+          "usedFor": "execution — milestones with dates",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-5-operations-high-level-staffing-plan-for-the-entooma-s-b78c7797",
+          "file": "High-Level Staffing Plan for the Entooma Sidai Project (05-20-2026).pdf",
+          "toc": "5.b",
+          "usedFor": "execution — staffing summary",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-5-operations-cip-s-alignment-with-the-ifc-performance-s-3018d17b",
+          "file": "CIP's Alignment with the IFC Performance Standards (5-21-2026).pdf",
+          "toc": "5.c",
+          "usedFor": "execution — IFC PS alignment summary",
+          "status": "present",
+          "statusDetail": "present (recovered — see note above; now filed under 5-operations/.../c. Project-Level Plans/, not the deleted SOP folder)",
+          "format": "PDF"
+        },
+        {
+          "id": "src-5-operations-local-project-experience-of-entooma-sidai--7685120e",
+          "file": "Local Project Experience of Entooma Sidai Team.pdf",
+          "toc": "5.d",
+          "usedFor": "team — professional experience lines",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-5-operations-david-evers-linkedin-cv-pdf-01fbd298",
+          "file": "David Evers LinkedIn CV.pdf",
+          "toc": "5.d",
+          "usedFor": "team",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-5-operations-dr-mark-ritchie-linkedin-cv-pdf-c6272e53",
+          "file": "Dr. Mark Ritchie LinkedIn CV.pdf",
+          "toc": "5.d",
+          "usedFor": "team",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-5-operations-githaiga-kamau-linkedin-cv-pdf-4f52249d",
+          "file": "Githaiga Kamau LinkedIn CV.pdf",
+          "toc": "5.d",
+          "usedFor": "team",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-5-operations-timothy-tear-linkedin-cv-pdf-68452633",
+          "file": "Timothy Tear LinkedIn CV.pdf",
+          "toc": "5.d",
+          "usedFor": "team",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-5-operations-standard-operating-procedures-14-files-car-79bf93c6",
+          "file": "Standard Operating Procedures (14 files — Carbon Management, Forest Guards, Identifying Lands, Mitigating Fire, Remote Site Visits, Tree Nursery, FPIC SOP, Field Security Protocol, Emergency booklet, KoboToolbox Overview, Packing List, Visit Safety Assessment Template, Train the Trainers)",
+          "toc": "5.b",
+          "usedFor": "Linked from the TOC only — no content copied. Filenames preserved in SOP_REFERENCE_LIST.md.",
+          "status": "excluded",
+          "statusDetail": "excluded",
+          "format": "GROUP"
+        }
+      ]
+    },
+    {
+      "id": "6-gis",
+      "title": "Maps and GIS",
+      "toc": "TOC 6.a",
+      "entries": [
+        {
+          "id": "src-6-gis-entooma-sidai-target-area-03-13-2026-kmz-dd2a293a",
+          "file": "entooma_sidai_target_area_03.13.2026.kmz",
+          "toc": "6.a",
+          "usedFor": "geo — project boundary (newest; wins over any older boundary)",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "KMZ"
+        },
+        {
+          "id": "src-6-gis-entooma-sidai-target-area-03-13-2026-shp-s-672d7464",
+          "file": "entooma_sidai_target_area_03.13.2026 (.shp/.shx/.dbf/.prj/.qmd)",
+          "toc": "6.a",
+          "usedFor": "geo — project boundary, pipeline input",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        },
+        {
+          "id": "src-6-gis-entooma-sidai-project-area-delineation-03--c1010c9b",
+          "file": "Entooma Sidai Project Area Delineation_03_13_2026.docx",
+          "toc": "6.a",
+          "usedFor": "geo — boundary provenance and method",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "DOCX"
+        },
+        {
+          "id": "src-6-gis-mara-reserve-2023-10-18-shp-set-a687ce2e",
+          "file": "Mara_reserve_2023_10_18 (.shp set)",
+          "toc": "6.a",
+          "usedFor": "geo — context layer",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        },
+        {
+          "id": "src-6-gis-mara-conservancies-shp-set-acc6ad30",
+          "file": "mara_conservancies (.shp set)",
+          "toc": "6.a",
+          "usedFor": "geo — context layer",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        },
+        {
+          "id": "src-6-gis-narok-north-subcounty-shp-set-9e77878c",
+          "file": "Narok_North_subcounty (.shp set)",
+          "toc": "6.a",
+          "usedFor": "geo — context layer",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        },
+        {
+          "id": "src-6-gis-transmara-subcounties-shp-set-aba2a7fa",
+          "file": "transmara_subcounties (.shp set)",
+          "toc": "6.a",
+          "usedFor": "geo — context layer",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        },
+        {
+          "id": "src-6-gis-crops-area-2023-10-18-shp-set-c9f33c12",
+          "file": "Crops_area_2023_10_18 (.shp set)",
+          "toc": "6.a",
+          "usedFor": "geo — context layer",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        },
+        {
+          "id": "src-6-gis-forest-removals-2023-10-19-shp-set-c85230e9",
+          "file": "Forest_removals_2023.10.19 (.shp set)",
+          "toc": "6.a",
+          "usedFor": "geo — publishable: false pending GIS confirmation",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        },
+        {
+          "id": "src-6-gis-north-discount-2023-10-19-shp-set-7d8d67d0",
+          "file": "North_discount_2023.10.19 (.shp set)",
+          "toc": "6.a",
+          "usedFor": "geo — publishable: false pending GIS confirmation",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        },
+        {
+          "id": "src-6-gis-isolated-islands-shp-set-aee7e320",
+          "file": "isolated_islands (.shp set)",
+          "toc": "6.a",
+          "usedFor": "geo — publishable: false pending GIS confirmation",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "GIS"
+        }
+      ]
+    },
+    {
+      "id": "7-legal",
+      "title": "Legal and regulatory",
+      "toc": "TOC 7.a / 7.b / 7.c / 7.d",
+      "entries": [
+        {
+          "id": "src-7-legal-mou-between-src-aah-and-akili-entooma-sida-c4feda99",
+          "file": "MOU Between SRC, AAH and Akili — Entooma Sidai project - Final.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — partner MOU checklist item",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-aahi-registration-certificate-pdf-55aa673f",
+          "file": "AAHI Registration Certificate.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — partner due diligence",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-sand-river-s-certificate-jpg-a6c47da0",
+          "file": "Sand River's Certificate.jpg",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — SHG registration for Sandriver Wildlife Corridor CBO. Reviewed 2026-09-12: government SHG registration certificate (entity, not personal ID) — visually confirmed, kept.",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "JPG"
+        },
+        {
+          "id": "src-7-legal-activity-report-src-community-engagements--7217feb9",
+          "file": "Activity Report — SRC Community engagements.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — partner track record",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-activity-report-src-community-and-aah-i-pa-d3178bac",
+          "file": "Activity Report — SRC, Community and AAH-I partnership.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — partner track record",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-activity-report-src-carbon-credit-training-418b1af8",
+          "file": "Activity report — SRC Carbon credit training.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — partner track record",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-activity-report-src-climate-change-awarene-1b054b18",
+          "file": "Activity report — SRC Climate change awareness Report.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — partner track record",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-src-meeting-minutes-pdf-b414183f",
+          "file": "SRC meeting minutes.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — partner due diligence",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-ahl-mem-arts-pdf-2ade6565",
+          "file": "AHL Mem Arts.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — Akili entity due diligence",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-good-standing-akili-pdf-ee03f9e5",
+          "file": "Good Standing - Akili.pdf",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — Akili entity due diligence",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-certificate-of-incorporation-pdf-entooma-s-be0f3ef8",
+          "file": "Certificate of Incorporation.pdf (Entooma Sidai Limited)",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — entity due diligence",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-company-search-cr12-pdf-entooma-sidai-limi-ed7b87c4",
+          "file": "Company Search - CR12.pdf (Entooma Sidai Limited)",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — entity due diligence",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-framework-for-country-and-firm-level-asses-ff61c20a",
+          "file": "Framework for Country and Firm-Level Assessment (10-25-2023) - KENYA.docx",
+          "toc": "7.a",
+          "usedFor": "legal_regulatory — country context",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "DOCX"
+        },
+        {
+          "id": "src-7-legal-entooma-sidai-loi-example-1-pdf-6c85e1af",
+          "file": "Entooma Sidai LOI Example 1.pdf",
+          "toc": "7.b",
+          "usedFor": "legal_regulatory — land tenure (LOIs)",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-entooma-sidai-loi-example-2-pdf-d772cf28",
+          "file": "Entooma Sidai LOI Example 2.pdf",
+          "toc": "7.b",
+          "usedFor": "legal_regulatory — land tenure (LOIs)",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-entooma-sidai-loi-example-3-pdf-58daa37e",
+          "file": "Entooma Sidai LOI Example 3.pdf",
+          "toc": "7.b",
+          "usedFor": "legal_regulatory — land tenure (LOIs)",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-ln-84-climate-change-carbon-markets-regula-3e25e906",
+          "file": "LN 84-Climate Change (Carbon Markets) Regulations, 2024 (formatted).pdf",
+          "toc": "7.c",
+          "usedFor": "legal_regulatory — national carbon-market regulation",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-the-climate-change-amendment-act-2023-pdf-3fa0026c",
+          "file": "The Climate Change (Amendment) Act, 2023.pdf",
+          "toc": "7.c",
+          "usedFor": "legal_regulatory — national carbon-market regulation",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-climate-change-carbon-markets-regulations--62390bd2",
+          "file": "Climate Change (Carbon Markets) Regulations 2023 with Schedules.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Earlier regulation version — LN 84 (2024) is newer; not cited unless a figure specifically predates it.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-the-climate-change-carbon-markets-regulati-99983650",
+          "file": "THE-CLIMATE-CHANGE-CARBON-MARKETS-REGULATIONS-2023-1.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Duplicate/earlier regulation text.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-regulatory-impact-statement-draft-climate--67d4c05c",
+          "file": "Regulatory-Impact-Statement — Draft Climate Change Carbon Markets Regulations, January 2024.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Background only.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-kenya-climate-change-act-no-11-of-2016-pdf-c57d4b78",
+          "file": "Kenya Climate Change Act No 11 of 2016.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Statutory background.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-communitylandact27of2016-pdf-54c79e34",
+          "file": "CommunityLandAct27of2016.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Statutory background for land tenure context.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-land-act-2012-pdf-bebf0b88",
+          "file": "Land Act (2012).pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Statutory background.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-land-registration-act-2012-pdf-7c6d9582",
+          "file": "Land Registration Act (2012).pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Statutory background.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-the-constitution-of-kenya-2010-pdf-7392b554",
+          "file": "The_Constitution_of_Kenya_2010.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Background only.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-narok-cidp-2023-2027-pdf-f0fba0a8",
+          "file": "NAROK-CIDP-2023-2027.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. County development plan — possible legal_regulatory/county-alignment context.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-range-management-and-pastoralism-strategy--02bc7d60",
+          "file": "RANGE-MANAGEMENT-AND-PASTORALISM-STRATEGY.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Sector policy background.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-gmme-management-plan-2003-2023-compressed--ee1a765d",
+          "file": "GMME-Management-Plan-2003 2023 (compressed).pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Greater Mara ecosystem management plan — possible impact context.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-kenya-climate-smart-agriculture-strategy-p-2de50317",
+          "file": "kenya_climate_smart_agriculture_strategy.pdf",
+          "toc": "7.c",
+          "usedFor": "Not in Appendix A. Sector policy background.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-narok-county-letter-dept-agriculture-lives-94391792",
+          "file": "Narok County Letter (Dept. Agriculture, Livestock and Fisheries).pdf",
+          "toc": "7.d",
+          "usedFor": "legal_regulatory — county support letters",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-narok-county-letter-dept-environment-water-239b0497",
+          "file": "Narok County Letter (Dept. Environment, Water, Energy, Natural Resources, and Climate Change).pdf",
+          "toc": "7.d",
+          "usedFor": "legal_regulatory — county support letters",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-githaiga-s-id-pdf-e5d5b7f8",
+          "file": "Githaiga's ID.pdf",
+          "toc": "7.a",
+          "usedFor": "—",
+          "status": "excluded",
+          "statusDetail": "excluded",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-src-members-list-and-passport-of-cbo-pdf-0123ac63",
+          "file": "SRC Members list and Passport of CBO.pdf",
+          "toc": "7.a",
+          "usedFor": "—",
+          "status": "excluded",
+          "statusDetail": "excluded",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-beneficial-owner-certificate-akili-pdf-4a7a8a5d",
+          "file": "Beneficial Owner Certificate - Akili.pdf",
+          "toc": "7.a",
+          "usedFor": "—",
+          "status": "excluded",
+          "statusDetail": "excluded",
+          "format": "PDF"
+        },
+        {
+          "id": "src-7-legal-pin-entooma-sidai-limited-pdf-9d45bc78",
+          "file": "PIN - Entooma Sidai Limited.pdf",
+          "toc": "7.a",
+          "usedFor": "—",
+          "status": "excluded",
+          "statusDetail": "excluded",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "id": "8-supplementary",
+      "title": "Supplementary information",
+      "toc": "TOC 8.a / 8.b / 8.c",
+      "entries": [
+        {
+          "id": "src-8-supplementary-faqs-for-entooma-sidai-project-7-20-2026-d-69c93cbb",
+          "file": "FAQs for Entooma Sidai Project (7-20-2026).docx",
+          "toc": "8.c",
+          "usedFor": "risks_faq — question/answer pairs, each sourced",
+          "status": "present",
+          "statusDetail": "present",
+          "format": "DOCX"
+        },
+        {
+          "id": "src-8-supplementary-bti-kenya-country-report-2026-pdf-78d4209d",
+          "file": "BTI Kenya Country Report (2026).pdf",
+          "toc": "8.a",
+          "usedFor": "Not in Appendix A. Country context — possible market/legal_regulatory background, not a required figure source.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-8-supplementary-how-kenya-emerged-as-global-leader-for-car-47686796",
+          "file": "How Kenya Emerged as Global Leader for Carbon Market Investment (5-13-2024).pdf",
+          "toc": "8.a",
+          "usedFor": "Not in Appendix A. Country context.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-8-supplementary-imf-kenya-country-report-no-24-14-2024-pdf-174f4bc5",
+          "file": "IMF Kenya Country Report No. 24-14 2024.pdf",
+          "toc": "8.a",
+          "usedFor": "Not in Appendix A. Country context.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-8-supplementary-world-bank-s-kenya-country-climate-and-dev-04f5d0c6",
+          "file": "World Bank's Kenya Country Climate and Development Report (2023).pdf",
+          "toc": "8.a",
+          "usedFor": "Not in Appendix A. Country context.",
+          "status": "extra",
+          "statusDetail": "extra",
+          "format": "PDF"
+        },
+        {
+          "id": "src-8-supplementary-reference-projects-kajiado-rangelands-krug-dad43e99",
+          "file": "Reference Projects (Kajiado Rangelands, Kruger to Canyons, Longido and Monduli, Northern Kenya Grassland — 29 files total)",
+          "toc": "8.b",
+          "usedFor": "—",
+          "status": "excluded",
+          "statusDetail": "excluded",
+          "format": "GROUP"
+        }
+      ]
+    }
+  ],
+  "claimDocumentBindings": {
+    "description": {
+      "primary": "src-4-project-docs-entooma-sidai-ccb-and-vcs-project-descript-16e1434c"
+    },
+    "feasibility": {
+      "primary": "src-4-project-docs-entooma-sidai-feasibility-study-final-12-1-2af60163"
+    },
+    "idea": {
+      "primary": "src-1-intro-entooma-sidai-pin-pdf-b8eafbed"
+    },
+    "model": {
+      "primary": "src-2-financials-entooma-sidai-financial-model-2026-08-13-x-30b34a78"
+    },
+    "er": {
+      "primary": "src-2-financials-entooma-sidai-feasibility-er-calculations--b939e257"
+    },
+    "boundary": {
+      "primary": "src-6-gis-entooma-sidai-target-area-03-13-2026-shp-s-672d7464",
+      "related": [
+        "src-6-gis-entooma-sidai-target-area-03-13-2026-kmz-dd2a293a"
+      ]
+    },
+    "onepager": {
+      "primary": "src-1-intro-cip-entoomasidai-onepager-7-30-2026-pdf-8ed19d6a"
+    },
+    "faq": {
+      "primary": "src-8-supplementary-faqs-for-entooma-sidai-project-7-20-2026-d-69c93cbb"
+    },
+    "legal-land-tenure": {
+      "primary": "src-8-supplementary-faqs-for-entooma-sidai-project-7-20-2026-d-69c93cbb"
+    },
+    "legal-carbon-rights": {
+      "primary": "src-8-supplementary-faqs-for-entooma-sidai-project-7-20-2026-d-69c93cbb"
+    },
+    "legal-national-carbon-regulation": {
+      "primary": "src-7-legal-ln-84-climate-change-carbon-markets-regula-3e25e906",
+      "related": [
+        "src-8-supplementary-faqs-for-entooma-sidai-project-7-20-2026-d-69c93cbb"
+      ]
+    },
+    "legal-county-support": {
+      "primary": "src-7-legal-narok-county-letter-dept-agriculture-lives-94391792",
+      "related": [
+        "src-7-legal-narok-county-letter-dept-environment-water-239b0497"
+      ]
+    },
+    "legal-partner-mou": {
+      "primary": "src-7-legal-mou-between-src-aah-and-akili-entooma-sida-c4feda99",
+      "related": [
+        "src-4-project-docs-entooma-sidai-ccb-and-vcs-project-descript-16e1434c"
+      ]
+    },
+    "legal-nema-authorisation": {
+      "primary": "src-4-project-docs-entooma-sidai-ccb-and-vcs-project-descript-16e1434c"
+    }
+  },
+  "claimDocumentOverrides": {
+    "area": {
+      "primary": "src-2-financials-entooma-sidai-financial-model-2026-08-13-x-30b34a78",
+      "related": [
+        "src-4-project-docs-entooma-sidai-ccb-and-vcs-project-descript-16e1434c"
+      ],
+      "basisNote": "CIP's area confirmation is cited in the claim but is not a document row in INDEX.md. The financial model is the indexed cross-check; the draft project description states an earlier area."
+    },
+    "area-managed": {
+      "primary": "src-2-financials-entooma-sidai-financial-model-2026-08-13-x-30b34a78",
+      "related": [
+        "src-4-project-docs-entooma-sidai-ccb-and-vcs-project-descript-16e1434c"
+      ],
+      "basisNote": "CIP's area confirmation is cited in the claim but is not a document row in INDEX.md. The financial model is the indexed cross-check; the draft project description states an earlier area."
+    }
+  }
+}

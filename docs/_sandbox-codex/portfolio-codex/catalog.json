@@ -1,0 +1,126 @@
+{
+  "source": "CIP master project index supplied for this prototype",
+  "sourceFile": "et3o2sn09g6fw033.html",
+  "note": "Only project names and registry IDs were imported. Countries come from explicit index names/folder labels, except Kenya from project.json. Empty fields are not inferred. No Dropbox links or document listings were imported.",
+  "projects": [
+    {
+      "id": "dongwe-kabompo-community-carbon-project",
+      "name": "Dongwe-Kabompo Community Carbon Project",
+      "country": "Zambia",
+      "registryId": "",
+      "populated": false
+    },
+    {
+      "id": "forest-landscape-restoration-in-panama",
+      "name": "Forest Landscape Restoration in Panama",
+      "country": "Panama",
+      "registryId": "4884",
+      "populated": false
+    },
+    {
+      "id": "pesisir-biru-nusantara-project",
+      "name": "Pesisir Biru Nusantara Project",
+      "country": "",
+      "registryId": "",
+      "populated": false
+    },
+    {
+      "id": "native-restoration-of-ecosystems-in-nicaragua-project",
+      "name": "Native Restoration of Ecosystems in Nicaragua Project",
+      "country": "Nicaragua",
+      "registryId": "4004",
+      "populated": false
+    },
+    {
+      "id": "entooma-sidai",
+      "name": "Entooma Sidai Project",
+      "country": "Kenya",
+      "registryId": "4994",
+      "populated": true
+    },
+    {
+      "id": "envira-amazonia-project",
+      "name": "Envira Amazonia Project",
+      "country": "",
+      "registryId": "1382",
+      "populated": false
+    },
+    {
+      "id": "agroforestry-project-of-cameroon",
+      "name": "Agroforestry Project of Cameroon",
+      "country": "Cameroon",
+      "registryId": "4883",
+      "populated": false
+    },
+    {
+      "id": "west-sulawesi-forest-conservation-project",
+      "name": "West Sulawesi Forest Conservation Project",
+      "country": "",
+      "registryId": "",
+      "populated": false
+    },
+    {
+      "id": "community-restoration-of-native-ecosystems-in-ghana",
+      "name": "Community Restoration of Native Ecosystems in Ghana",
+      "country": "Ghana",
+      "registryId": "4126",
+      "populated": false
+    },
+    {
+      "id": "envira-amazonia-project-ii-iii-expansion",
+      "name": "Envira Amazonia Project II-III (Expansion)",
+      "country": "",
+      "registryId": "",
+      "populated": false
+    },
+    {
+      "id": "kjb-tanimbar-islands-ifm-project",
+      "name": "KJB-Tanimbar Islands IFM Project",
+      "country": "",
+      "registryId": "",
+      "populated": false
+    },
+    {
+      "id": "reflorestamento-de-impacto-no-brasil-project",
+      "name": "Reflorestamento de Impacto no Brasil Project",
+      "country": "Brazil",
+      "registryId": "4430",
+      "populated": false
+    },
+    {
+      "id": "utomo-pt-bklu",
+      "name": "Utomo - PT BKLU",
+      "country": "",
+      "registryId": "",
+      "populated": false
+    },
+    {
+      "id": "utomo-pt-nwu",
+      "name": "Utomo - PT NWU",
+      "country": "",
+      "registryId": "",
+      "populated": false
+    },
+    {
+      "id": "utomo-pt-lalj",
+      "name": "Utomo - PT LALJ",
+      "country": "",
+      "registryId": "",
+      "populated": false
+    },
+    {
+      "id": "uganda-native-reforestation-and-agroforestry-project",
+      "name": "Uganda Native Reforestation and Agroforestry Project",
+      "country": "Uganda",
+      "registryId": "4882",
+      "populated": false
+    },
+    {
+      "id": "utomo-pt-drp",
+      "name": "Utomo - PT DRP",
+      "country": "",
+      "registryId": "",
+      "populated": false
+    }
+  ]
+}

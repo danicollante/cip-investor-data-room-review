@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.6",
+  "themes": [
+    {
+      "id": "climate-adaptation",
+      "icon": "shield",
+      "indicators": [
+        {
+          "id": "area-managed",
+          "figure_type": "numeral",
+          "card_definition_key": "ind.area-managed.card_definition",
+          "measured_as_key": "measured.area-managed",
+          "sdgs": [],
+          "sdg_status": "no_explicit_link",
+          "display": {
+            "type": "headline+map"
+          },
+          "meta": {
+            "source": "CIP confirmation of the final project area, cross-checked against Entooma Sidai - Financial Model 2026.08.13.xlsx, sheet '1. Inputs', cell C10 — supersedes the project description's stated ~650,000 ha (see caveats)",
+            "short": "CIP area confirmation; Financial model C10",
+            "source_url": "https://registry.verra.org/app/projectDetail/VCS/4994",
+            "updated": "2026-08-13",
+            "definition_key": "ind.area-managed.definition",
+            "provider": "Climate Investment Partners",
+            "caveats_key": "ind.area-managed.caveats",
+            "source_class": "project-monitoring",
+            "owner": "Climate Investment Partners",
+            "update_frequency": "one-off",
+            "status": "verified"
+          },
+          "value": 500000,
+          "unit": "ha",
+          "caption_key": "ind.area-managed.caption"
+        },
+        {
+          "id": "land-cover-baseline",
+          "figure_type": "chart",
+          "card_definition_key": "ind.land-cover-baseline.card_definition",
+          "measured_as_key": "measured.land-cover-baseline",
+          "sdgs": [],
+          "sdg_status": "no_explicit_link",
+          "display": {
+            "type": "headline+chart"
+          },
+          "meta": {
+            "source": "Entooma Sidai Feasibility Study (Final, 12.12.23) — Table 1, p.21",
+            "short": "Feasibility study 12.12.23, Table 1 p.21",
+            "source_url": "#",
+            "updated": "2023-12-12",
+            "definition_key": "ind.land-cover-baseline.definition",
+            "provider": "Climate Investment Partners",
+            "caveats_key": "ind.land-cover-baseline.caveats",
+            "source_class": "project-monitoring",
+            "owner": "Climate Investment Partners",
+            "update_frequency": "one-off",
+            "status": "verified"
+          },
+          "value": 33.8,
+          "unit": "%",
+          "caption_key": "ind.land-cover-baseline.caption",
+          "chart": {
+            "type": "landcover-strip",
+            "figure_title_key": "ind.land-cover-baseline.figure_title",
+            "figure_caption_key": "ind.land-cover-baseline.figure_caption",
+            "segments": [
+              {
+                "key": "open-shrublands",
+                "value": 33.8,
+                "color": "series-1",
+                "label_key": "landcover.open-shrublands"
+              },
+              {
+                "key": "annual-cropland",
+                "value": 29.6,
+                "color": "series-4",
+                "label_key": "landcover.annual-cropland"
+              },
+              {
+                "key": "open-grasslands",
+                "value": 17.4,
+                "color": "series-2",
+                "label_key": "landcover.open-grasslands"
+              },
+              {
+                "key": "closed-grassland",
+                "value": 5.1,
+                "color": "series-3",
+                "label_key": "landcover.closed-grassland"
+              },
+              {
+                "key": "other",
+                "value": 14.1,
+                "color": "other",
+                "label_key": "landcover.other"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "biodiversity-protection",
+      "icon": "leaf",
+      "indicators": [
+        {
+          "id": "wildlife-corridor",
+          "figure_type": "pullline",
+          "card_definition_key": "ind.wildlife-corridor.card_definition",
+          "measured_as_key": "measured.wildlife-corridor",
+          "sdgs": [
+            13,
+            15
+          ],
+          "sdg_status": "mapped",
+          "sdg_source": "CIP Entooma Sidai one-pager (Jul 2026) — Biodiversity panel",
+          "display": {
+            "type": "headline"
+          },
+          "meta": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 (clean) DRAFT — §2.1.2 project location, p.9; Maasai Mara/Serengeti ecosystem, p.22",
+            "short": "Project description 3.11.26, §2.1.2 p.9",
+            "source_url": "https://registry.verra.org/app/projectDetail/VCS/4994",
+            "updated": "2026-03-11",
+            "definition_key": "ind.wildlife-corridor.definition",
+            "provider": "Climate Investment Partners",
+            "caveats_key": "ind.wildlife-corridor.caveats",
+            "source_class": "project-monitoring",
+            "owner": "Climate Investment Partners",
+            "update_frequency": "one-off",
+            "status": "verified"
+          },
+          "value": null,
+          "unit": null,
+          "pullline_key": "ind.wildlife-corridor.pullline"
+        },
+        {
+          "id": "key-species",
+          "figure_type": "species",
+          "card_definition_key": "ind.key-species.card_definition",
+          "measured_as_key": "measured.key-species",
+          "sdgs": [
+            13,
+            15
+          ],
+          "sdg_status": "mapped",
+          "sdg_source": "CIP Entooma Sidai one-pager (Jul 2026) — Biodiversity panel",
+          "display": {
+            "type": "headline"
+          },
+          "meta": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 (clean) DRAFT — §5.1 biodiversity, pp.155–159 (each species with its IUCN Red List status)",
+            "short": "Project description 3.11.26, §5.1 pp.155-159",
+            "source_url": "https://registry.verra.org/app/projectDetail/VCS/4994",
+            "updated": "2026-03-11",
+            "definition_key": "ind.key-species.definition",
+            "provider": "Climate Investment Partners",
+            "caveats_key": "ind.key-species.caveats",
+            "source_class": "project-monitoring",
+            "owner": "Climate Investment Partners",
+            "update_frequency": "one-off",
+            "status": "verified"
+          },
+          "value": null,
+          "unit": null,
+          "pullline_key": "ind.key-species.pullline",
+          "species": [
+            {
+              "name_key": "species.black-rhino.name",
+              "latin": "Diceros bicornis",
+              "status_key": "species.black-rhino.status",
+              "scale_index": 4,
+              "image": "assets/img/species/black-rhino.webp"
+            },
+            {
+              "name_key": "species.elephant.name",
+              "latin": "Loxodonta africana",
+              "status_key": "species.elephant.status",
+              "scale_index": 3,
+              "image": "assets/img/species/elephant.webp"
+            },
+            {
+              "name_key": "species.giraffe.name",
+              "latin": "Giraffa camelopardalis",
+              "status_key": "species.giraffe.status",
+              "scale_index": 2,
+              "image": "assets/img/species/giraffe.webp"
+            },
+            {
+              "name_key": "species.cheetah.name",
+              "latin": "Acinonyx jubatus",
+              "status_key": "species.cheetah.status",
+              "scale_index": 2,
+              "image": "assets/img/species/cheetah.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-inclusion",
+      "icon": "users",
+      "indicators": [
+        {
+          "id": "communities-engaged",
+          "figure_type": "pullline",
+          "card_definition_key": "ind.communities-engaged.card_definition",
+          "measured_as_key": "measured.communities-engaged",
+          "sdgs": [],
+          "sdg_status": "no_explicit_link",
+          "display": {
+            "type": "headline"
+          },
+          "meta": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 (clean) DRAFT — §2.1.17 grazing governance structure, p.40",
+            "short": "Project description 3.11.26, §2.1.17 p.40",
+            "source_url": "https://registry.verra.org/app/projectDetail/VCS/4994",
+            "updated": "2026-03-11",
+            "definition_key": "ind.communities-engaged.definition",
+            "provider": "Climate Investment Partners",
+            "caveats_key": "ind.communities-engaged.caveats",
+            "source_class": "project-monitoring",
+            "owner": "Climate Investment Partners",
+            "update_frequency": "one-off",
+            "status": "verified"
+          },
+          "value": null,
+          "unit": null,
+          "pullline_key": "ind.communities-engaged.pullline",
+          "sdg_note": "The project description's SDG section (§2.1.18, p.45) states that the project \"will aid Kenya with its efforts to meet all the Sustainable Development Goals\" and then lists all seventeen, one paragraph each — including #14 Life below water. It is the VCS template's boilerplate section filled in maximally, not a per-indicator attribution. An earlier pass carried a plausible subset here (communities-engaged [10, 11, 17], womens-participation [5], local-jobs [1, 5, 8]); that subset was an editorial inference, not a reading of the source, so it was removed rather than kept behind a caveat — a badge is too compact a format to carry the distinction. Restore a mapping here only from a document that attributes specific goals to this specific indicator, as the CIP one-pager does for the three indicators that keep their badges."
+        },
+        {
+          "id": "womens-participation",
+          "figure_type": "quote",
+          "card_definition_key": "ind.womens-participation.card_definition",
+          "measured_as_key": "measured.womens-participation",
+          "sdgs": [],
+          "sdg_status": "no_explicit_link",
+          "display": {
+            "type": "headline"
+          },
+          "meta": {
+            "source": "Entooma Sidai Project Idea Note (Oct 2023)",
+            "short": "Project idea note, Oct 2023",
+            "source_url": "#",
+            "updated": "2023-10-04",
+            "definition_key": "ind.womens-participation.definition",
+            "provider": "Climate Investment Partners",
+            "caveats_key": "ind.womens-participation.caveats",
+            "source_class": "project-monitoring",
+            "owner": "Climate Investment Partners",
+            "update_frequency": "one-off",
+            "status": "verified"
+          },
+          "value": null,
+          "unit": null,
+          "quote_key": "ind.womens-participation.quote",
+          "quote_citation": "Project Idea Note, §6",
+          "sdg_note": "The project description's SDG section (§2.1.18, p.45) states that the project \"will aid Kenya with its efforts to meet all the Sustainable Development Goals\" and then lists all seventeen, one paragraph each — including #14 Life below water. It is the VCS template's boilerplate section filled in maximally, not a per-indicator attribution. An earlier pass carried a plausible subset here (communities-engaged [10, 11, 17], womens-participation [5], local-jobs [1, 5, 8]); that subset was an editorial inference, not a reading of the source, so it was removed rather than kept behind a caveat — a badge is too compact a format to carry the distinction. Restore a mapping here only from a document that attributes specific goals to this specific indicator, as the CIP one-pager does for the three indicators that keep their badges."
+        }
+      ]
+    },
+    {
+      "id": "employment-economy",
+      "icon": "trending-up",
+      "indicators": [
+        {
+          "id": "local-jobs",
+          "figure_type": "pullline",
+          "card_definition_key": "ind.local-jobs.card_definition",
+          "measured_as_key": "measured.local-jobs",
+          "sdgs": [],
+          "sdg_status": "no_explicit_link",
+          "display": {
+            "type": "headline"
+          },
+          "meta": {
+            "source": "Entooma Sidai CCB-and-VCS Project Description, 3.11.26 (clean) DRAFT — §2.1.17 grazing officer/coordinator roles, p.40; headcounts stated as placeholders in Table 1.2, p.6",
+            "short": "Project description 3.11.26, §2.1.17 p.40",
+            "source_url": "https://registry.verra.org/app/projectDetail/VCS/4994",
+            "updated": "2026-03-11",
+            "definition_key": "ind.local-jobs.definition",
+            "provider": "Climate Investment Partners",
+            "caveats_key": "ind.local-jobs.caveats",
+            "source_class": "project-monitoring",
+            "owner": "Climate Investment Partners",
+            "update_frequency": "one-off",
+            "status": "verified"
+          },
+          "value": null,
+          "unit": null,
+          "pullline_key": "ind.local-jobs.pullline",
+          "sdg_note": "The project description's SDG section (§2.1.18, p.45) states that the project \"will aid Kenya with its efforts to meet all the Sustainable Development Goals\" and then lists all seventeen, one paragraph each — including #14 Life below water. It is the VCS template's boilerplate section filled in maximally, not a per-indicator attribution. An earlier pass carried a plausible subset here (communities-engaged [10, 11, 17], womens-participation [5], local-jobs [1, 5, 8]); that subset was an editorial inference, not a reading of the source, so it was removed rather than kept behind a caveat — a badge is too compact a format to carry the distinction. Restore a mapping here only from a document that attributes specific goals to this specific indicator, as the CIP one-pager does for the three indicators that keep their badges."
+        },
+        {
+          "id": "benefit-sharing",
+          "figure_type": "pullline",
+          "card_definition_key": "ind.benefit-sharing.card_definition",
+          "measured_as_key": "measured.benefit-sharing",
+          "sdgs": [
+            1,
+            8,
+            15
+          ],
+          "sdg_status": "mapped",
+          "sdg_source": "CIP Entooma Sidai one-pager (Jul 2026) — Community panel",
+          "display": {
+            "type": "headline"
+          },
+          "meta": {
+            "source": "CIP Entooma Sidai one-pager (Jul 2026)",
+            "short": "CIP one-pager, Jul 2026",
+            "source_url": "#",
+            "updated": "2026-07-30",
+            "definition_key": "ind.benefit-sharing.definition",
+            "provider": "Climate Investment Partners",
+            "caveats_key": "ind.benefit-sharing.caveats",
+            "source_class": "project-monitoring",
+            "owner": "Climate Investment Partners",
+            "update_frequency": "one-off",
+            "status": "verified"
+          },
+          "value": null,
+          "unit": null,
+          "pullline_key": "ind.benefit-sharing.pullline"
+        }
+      ]
+    }
+  ]
+}
