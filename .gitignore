@@ -1,0 +1,33 @@
+# Never publish credentials or local processing artifacts.
+.env*
+*.key
+secrets*
+credentials*
+*secrets*/
+*credentials*/
+*.log
+logs/
+.cache/
+cache/
+caches/
+__pycache__/
+*.py[cod]
+.venv/
+.qa/
+.DS_Store
+node_modules/
+scripts/
+notebooks/
+data/monitoring/raw/
+data/monitoring/staging/
+# Common cache and log variants.
+.cache*/
+*cache*/
+*Cache*/
+.logs*/
+*logs*/
+*Logs*/
+.ipynb_checkpoints/
+*.ipynb
+*.pem
+*.p12

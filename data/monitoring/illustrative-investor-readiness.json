@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "project_id": "entooma-sidai",
+  "sample_data": true,
+  "disclaimer": "ALL values, detections, statuses, review notes and locations in this file are synthetic demonstration examples, not observations at Entooma Sidai.",
+  "fire": {
+    "status": "sample",
+    "source": "Synthetic demonstration"
+  },
+  "disturbance": {
+    "status": "sample",
+    "source": "Synthetic demonstration"
+  },
+  "climate": {
+    "status": "sample",
+    "source": "Synthetic demonstration"
+  },
+  "vegetation": {
+    "status": "sample",
+    "source": "Synthetic demonstration \u00b7 Example values",
+    "sample_data": true
+  },
+  "events": [
+    {
+      "id": "EXAMPLE-F-055",
+      "date": "2026-09-10",
+      "lat": -1.05487,
+      "lon": 36.34141,
+      "zone": "buffer",
+      "category": "fire",
+      "source": "Synthetic demonstration",
+      "sample_data": true,
+      "review_status": "false_positive",
+      "note": "Example response: a neighbouring agricultural burn was checked in this scenario. The example does not establish actual project impact.",
+      "published": true,
+      "reviewer": "CIP reviewer (simulated)",
+      "reviewed_at": "2026-10-05"
+    },
+    {
+      "id": "EXAMPLE-D-001",
+      "date": "2026-08-16",
+      "lat": -1.830468,
+      "lon": 36.044413,
+      "zone": "buffer",
+      "category": "disturbance",
+      "source": "Synthetic demonstration",
+      "sample_data": true,
+      "review_status": "follow_up",
+      "note": "Example response: request a field check to interpret the surrounding-zone signal.",
+      "published": true,
+      "reviewer": "CIP reviewer (simulated)",
+      "reviewed_at": "2026-10-05"
+    }
+  ]
+}
