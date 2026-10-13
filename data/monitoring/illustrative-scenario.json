@@ -1284,7 +1284,7 @@
         "p25": null,
         "p75": null,
         "valid_pixel_pct": 18,
-        "reason": "cobertura insuficiente (example)",
+        "reason": "insufficient coverage (example)",
         "sample_data": true
       },
       {

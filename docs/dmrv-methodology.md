@@ -1,8 +1,8 @@
 # CIP dMRV monitoring demonstration — sources, logic and proposed operating model
 
-**Version:** v0, updated 6 October 2026\
+**Version:** v0.1, updated 13 October 2026\
 **Pilot:** Entooma Sidai, Narok County, Kenya  
-**Delivery:** Local meeting demonstration. Public deployment is pending a separate decision.  
+**Delivery:** Public design preview for internal review. Access is simulated; this is not a production service.  
 **Purpose:** Demonstrate monitoring, review and investor communication within the existing data room. This is not an operational monitoring service or an assurance opinion.
 
 ## 1. What this version contains
@@ -24,9 +24,9 @@ FIRMS has 12 complete months in both zones, with 1,251 automatic, unreviewed sat
 
 The snapshot preparation date is **2026-10-05**. The analysis window is the twelve complete calendar months before that date: **2025-10 through 2026-09**. Each source has its own retrieval date, coverage and review state. The snapshot date must never be presented as the date of the latest satellite observation.
 
-The team source snapshot is `data/monitoring/entooma-sidai.json`. Before replacement, its exact bytes and SHA-256 are saved under `data/monitoring/staging/snapshot-backups/`. `data/monitoring/investor-source-readiness.json` and `illustrative-investor-readiness.json` contain only source metadata and explicitly released example responses; neither contains FIRMS/NDVI values, automatic points, event-file pointers or monthly arrays. Surrounding-ring files are content-addressed and the snapshot pointer is replaced atomically after acquisition succeeds. It records the boundary file and SHA-256, buffer method, selected climate point, request URL, raw-response hash, units, baseline period and per-month missing values. Source responses are retained locally under ignored `data/monitoring/raw/`; no raw response archive is included in an investor release. Retain those files separately for reproducibility before cleaning the working copy.
+The team source snapshot is `data/monitoring/entooma-sidai.json`. Before replacement, its exact bytes and SHA-256 are saved under `data/monitoring/staging/snapshot-backups/`. `data/monitoring/investor-source-readiness.json` and `illustrative-investor-readiness.json` contain only source metadata and explicitly released example responses; neither contains FIRMS/NDVI values, automatic points, event-file pointers or monthly arrays. Surrounding-ring files are content-addressed and the snapshot pointer is replaced atomically after acquisition succeeds. It records the boundary file and SHA-256, buffer method, selected climate point, request URL, raw-response hash, units, baseline period and per-month missing values. Source responses are retained locally under ignored `data/monitoring/raw/`; no raw response archive is included in an investor release.
 
-The implementation is based on the public repository `danicollante/cip-investor-data-room-review`. The source perimeter is unchanged. The missing original data-room build pipeline has not been reconstructed.
+The implementation is based on the public repository `danicollante/cip-investor-data-room-review`. The source perimeter is unchanged.
 
 ## 3. Spatial scope
 
@@ -123,7 +123,7 @@ The source is **Copernicus Sentinel-2 L2A**. NDVI = `(B08 − B04) / (B08 + B04)
 
 Samples require input `dataMask=1`. SCL classes 0, 1, 3, 8, 9, 10 and 11 are excluded (no data, saturated/defective, shadow, clouds, cirrus and snow/ice), as are non-positive denominators or non-finite NDVI. SCL 7 remains eligible, an explicit quality assumption. Negative NDVI and water pixels are retained. ORBIT can group observations by day; independent-acquisition completeness is not claimed. Nearest-neighbour downsampling on EPSG:32736 grids is explicit: a 250 m sample does not average every native 10 m pixel within that cell.
 
-Valid coverage is `100 × (sampleCount − noDataCount) / geometryPixelCount`. It means at least one usable observation per AOI grid pixel during the month. The **30% coverage threshold is an initial unvalidated assumption**. Below it, all NDVI statistics remain null with reason `cobertura insuficiente`, while the valid percentage is retained. Missing geometry counts cause null values with reason `cobertura no verificable`. No interpolation or seasonal baseline is added.
+Valid coverage is `100 × (sampleCount − noDataCount) / geometryPixelCount`. It means at least one usable observation per AOI grid pixel during the month. The **30% coverage threshold is an initial unvalidated assumption**. Below it, all NDVI statistics remain null with reason `insufficient coverage`, while the valid percentage is retained. Missing geometry counts cause null values with reason `coverage not verifiable`. No interpolation or seasonal baseline is added.
 
 **NDVI measures vegetation vigor; it does not establish biomass, carbon or grazing compliance. No seasonal baseline yet; read alongside rainfall.**
 
@@ -186,49 +186,7 @@ The original scope suggested S3 and less than 1 GB/year for the portfolio. Stora
 
 Suggested roles are **source operator**, **project reviewer**, **GIS approver** and **investor-release approver**. CIP has not assigned those roles in this demo. Weekly review effort depends on actual alert volume; the scope's estimate of approximately 15 minutes is not a validated commitment.
 
-## 8. Local run and refresh
-
-No application build or backend is required. From the repository directory:
-
-```sh
-python3 -m http.server 8765 --bind 127.0.0.1
-```
-
-Open `http://127.0.0.1:8765/#/project/entooma-sidai/monitoring`. Use **Preview as** to switch between CIP team and an investor profile. The local server must remain running while the demo is shown.
-
-For spatial and source preparation:
-
-```sh
-python3 -m venv .venv
-.venv/bin/python -m pip install -r scripts/requirements-dmrv.txt
-.venv/bin/python scripts/prepare_dmrv_snapshot.py --snapshot-date 2026-10-05 --power
-```
-
-`--power` makes one public NASA request. Omitting it rebuilds geography and retains previously extracted climate data when the period and perimeter match, and fire/NDVI when the period and both perimeter/ring hashes match. A changed period or geometry requires fresh extraction; automatic resetting to pending prevents reuse of incompatible evidence.
-
-To integrate the validated staged FIRMS extraction, without network requests:
-
-```sh
-.venv/bin/python -B scripts/prepare_dmrv_snapshot.py \
-  --snapshot-date 2026-10-05 \
-  --firms-results data/monitoring/staging/firms-phase2/monthly-results.json
-```
-
-Keep the sibling `observations.json`, `provenance.json` and `run.json`, and the ignored raw CSVs, for offline evidence validation. Authentication URLs are never copied into the snapshot or event file. Original request hashes refer to URLs with the MAP_KEY replaced by `<MAP_KEY>`; source URLs point only to public NASA documentation. The legacy CSV helper has manually attested coverage; it is not the evidence used in this integration.
-
-GFW raster processing and KoBo synchronization remain unimplemented. Sentinel-2 composites have been extracted separately and are imported without remote requests using:
-
-```sh
-.venv/bin/python scripts/prepare_dmrv_snapshot.py \
-  --snapshot-date 2026-10-05 \
-  --ndvi-results data/monitoring/staging/ndvi-phase2/monthly-results.json
-```
-
-The flag validates source results, retains compatible fire/climate evidence, creates an exact prior-snapshot backup with SHA-256, generates metadata-only investor projections, and atomically replaces the snapshot. An invalid schema aborts without replacing the prior snapshot; incompatible period or geometry leaves NDVI pending. Refresh the illustrative scenario separately if the demo period changes; examples do not follow source updates.
-
-The printable annex is a dated, manually curated artifact. Reconcile its coverage statement and date after any source refresh; printing it does not approve publication. Review it in the investor audience before release.
-
-## 9. Decisions before operating or publishing
+## 8. Decisions before operating or publishing
 
 - Approved final perimeter and the owner of GIS changes.
 - Actual FIRMS/GFW acquisition access and spatial coverage checks.
