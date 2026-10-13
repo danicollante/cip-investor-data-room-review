@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "project_id": "entooma-sidai",
+  "demo": true,
+  "snapshot_date": "2026-10-05",
+  "period": {
+    "start": "2025-10",
+    "end": "2026-09"
+  },
+  "months": [
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "boundary": {
+    "file": "data/geo/project_area.geojson",
+    "status": "provisional",
+    "area_ha": 652022,
+    "confirmed_area_ha": 500000,
+    "source": "entooma_sidai_target_area_03.13.2026 shapefile, converted in the existing data room",
+    "source_date": "2026-03-13",
+    "sha256": "5f84725b9fb12bf66f4cbb75f24ce2866507225ec77e3c74b8f7845c36607c3f",
+    "buffer_file": "data/monitoring/entooma-buffer-fc244103f84d.geojson",
+    "buffer_sha256": "fc244103f84d9049741854e0b8b1ba9b371daa830855db65335ab0b5f9181182",
+    "buffer_km": 10,
+    "buffer_area_ha": 579954.8,
+    "buffer_crs": "+proj=aeqd +lat_0=-1.4971280729095808 +lon_0=35.767459069109904 +datum=WGS84 +units=m +type=crs",
+    "climate_point": {
+      "lat": -1.497128,
+      "lon": 35.767459
+    }
+  },
+  "visibility": {
+    "team": [
+      "*"
+    ],
+    "investor": [
+      "reviewed_and_explicitly_released_only"
+    ]
+  },
+  "fire": {
+    "status": "available",
+    "source": "NASA FIRMS VIIRS 375 m",
+    "source_url": "https://firms.modaps.eosdis.nasa.gov/",
+    "retrieved_at": "2026-10-06T01:48:54.948454+00:00",
+    "review_status": "not_reviewed",
+    "reason": "12 months extracted in both zones; automatic, not reviewed. Detection counts and cell-days are not unique fires, burned area or risk.",
+    "source_readiness": "extracted, automatic, not reviewed"
+  },
+  "disturbance": {
+    "status": "pending",
+    "source": "GFW / Global Nature Watch Integrated Disturbance Alerts",
+    "source_url": "https://globalnaturewatch.org/blog/data-and-tools/integrated-deforestation-alerts/",
+    "retrieved_at": null,
+    "review_status": "not_reviewed",
+    "reason": "Versioned, spatially clipped extraction pending. No alerted-area totals are inferred."
+  },
+  "climate": {
+    "status": "partial",
+    "source": "NASA POWER \u00b7 PRECTOTCORR (MERRA-2)",
+    "source_url": "https://power.larc.nasa.gov/docs/services/api/temporal/monthly/",
+    "retrieved_at": "2026-10-05T19:01:26.150390+00:00",
+    "review_status": "automatic",
+    "reason": "Unavailable months stay null. Source latency is distinct from snapshot date."
+  },
+  "vegetation": {
+    "status": "available",
+    "source": "Copernicus Sentinel-2 L2A \u00b7 NDVI",
+    "source_url": "https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel2.html",
+    "retrieved_at": "2026-10-05T22:56:37.775824+00:00",
+    "review_status": "not_reviewed",
+    "reason": "12 months extracted at 250 m, unreviewed, no baseline. Perimeter and ring are provisional.",
+    "source_readiness": "extracted, automatic, not reviewed"
+  },
+  "field": {
+    "status": "sample",
+    "source": "KoBoToolbox (planned)",
+    "source_url": "https://support.kobotoolbox.org/api.html"
+  }
+}
